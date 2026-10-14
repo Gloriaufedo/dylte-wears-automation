@@ -1,0 +1,23 @@
+# Python environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Test and editor caches
+.pytest_cache/
+.DS_Store
+.vscode/
+
+# Temporary backups
+*.backup.py
+*.bak
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Keep example environment templates if added later
+!.env.example

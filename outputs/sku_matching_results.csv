@@ -1,0 +1,801 @@
+sale_line_id,transaction_id_raw,sale_date_raw,product_description_raw,sku_raw,colour_raw,size_raw,quantity_raw,amount_raw,payment_method_raw,staff_id_raw,source_file,source_row,entry_status,sku_match_status,matched_product_id,matched_sku
+SALE-00001,TX-00078,06/29/26,lace brief,,,12.0,2.0,"₦37,600",Cash,,manual_entry.xlsx,1,Unprocessed,SKU_MISSING,,
+SALE-00002,TX-00548,27-Jun-2026,Cropped Casual Top - Beige,DW-CAS-0143,Beige,,3.0,86100,Card,STF-02,daily_sales.csv,2,Unprocessed,SKU_MATCHED,PRD-0143,DW-CAS-0143
+SALE-00003,,05/07/26,shirt dress,,Blue,,1.0,22300,Transfer,,daily_sales.csv,3,Unprocessed,SKU_MISSING,,
+SALE-00004,,20/04/2026,Lace Trim Bra,,Black,,1.0,4100(x1),POS,STF-02,daily_sales.csv,4,Unprocessed,SKU_MISSING,,
+SALE-00005,TX-00490,01/25/26,Lace Trim Bra Blue 12,,Blue,12.0,1.0,29900,Cash,STF-02,daily_sales.csv,5,Unprocessed,SKU_MISSING,,
+SALE-00006,TX-00009,2026-01-27,heart print t-shirt,DW-CAS-0046,,,1.0,30900,Transfer,,daily_sales.csv,6,Unprocessed,SKU_MATCHED,PRD-0046,DW-CAS-0046
+SALE-00007,TX-00440,06/10/26,pink one,DW-UNKNOWN-9999,Pink,,2.0,37800(x2),POS,STF-02,sales_book_export.xlsx,7,Unprocessed,SKU_NOT_FOUND,,
+SALE-00008,TX-00303,15/06/2026,ribbed tank top,,Lilac,,1.0,"₦34,000",Cash,STF-02,daily_sales.csv,8,Unprocessed,SKU_MISSING,,
+SALE-00009,TX-00075,01/29/26,Ribbed Tank Top,,,,1.0,13400,Cash,STAFF A,sales_book_export.xlsx,9,Unprocessed,SKU_MISSING,,
+SALE-00010,TX-00550,03/09/26,same as last time,,Black,,1.0,4900,Transfer,STF-03,sales_book_export.xlsx,10,Unprocessed,SKU_MISSING,,
+SALE-00011,,21/01/2026,Sports Bra White 12,DW-ACT-0159,White,12.0,1.0,18300,Cash,,sales_book_export.xlsx,11,Unprocessed,SKU_MATCHED,PRD-0159,DW-ACT-0159
+SALE-00012,TX-00130,06-Jun-2026,Cotton Nightdress Blue 12,DW-NIG-0233,Blue,12.0,1.0,18100,POS,STF-01,sales_book_export.xlsx,12,Unprocessed,SKU_MATCHED,PRD-0233,DW-NIG-0233
+SALE-00013,TX-00119,2026-04-20,Lace Butterfly Pajama Set,DW-NIG-0172,White,12.0,1.0,20600,Transfer,STAFF A,sales_book_export.xlsx,13,Unprocessed,SKU_MATCHED,PRD-0172,DW-NIG-0172
+SALE-00014,TX-00255,01/04/26,Soft Knit Co-ord - Pink,,Pink,,1.0,28700,Card,STF-03,daily_sales.csv,14,Unprocessed,SKU_MISSING,,
+SALE-00015,TX-00319,27-May-2026,Jogger Pants,DW-TRO-0040,,,1.0,"₦31,000",POS,STF-01,manual_entry.xlsx,15,Unprocessed,SKU_MATCHED,PRD-0040,DW-TRO-0040
+SALE-00016,TX-00420,03/01/2026,slim fit tee,,Blue,12.0,1.0,"₦21,500",Cash,STF-02,manual_entry.xlsx,16,Unprocessed,SKU_MISSING,,
+SALE-00017,TX-00062,12/06/2026,the usual top,,Black,,2.0,18000,Transfer,STF-03,sales_book_export.xlsx,17,Unprocessed,SKU_MISSING,,
+SALE-00018,TX-00134,2026-03-01,soft knit co-ord,DW-LOU-0023,,12.0,2.0,57400,Transfer,STF-03,daily_sales.csv,18,Unprocessed,SKU_MATCHED,PRD-0023,DW-LOU-0023
+SALE-00019,TX-00124,04/11/26,heart print t-shirt,,Pink,,2.0,15000,POS,STF-02,daily_sales.csv,19,Unprocessed,SKU_MISSING,,
+SALE-00020,TX-00255,29/04/2026,Cropped Casual Top Lilac 12,,Lilac,12.0,1.0,12500,POS,,manual_entry.xlsx,20,Unprocessed,SKU_MISSING,,
+SALE-00021,,2026-06-23,Seamless Brief,DW-LIN-0026,,,1.0,8200,Transfer,STF-02,sales_book_export.xlsx,21,Unprocessed,SKU_MATCHED,PRD-0026,DW-LIN-0026
+SALE-00022,TX-00095,04/06/26,that pink set,DW-LIN-0034,Black,,2.0,5800,POS,STF-01,sales_book_export.xlsx,22,Unprocessed,SKU_MATCHED,PRD-0034,DW-LIN-0034
+SALE-00023,TX-00153,13-Jan-2026,Satin Nightgown - Grey,DW-NIG-0237,Grey,12.0,1.0,"₦28,000",Cash,STAFF A,manual_entry.xlsx,23,Unprocessed,SKU_MATCHED,PRD-0237,DW-NIG-0237
+SALE-00024,TX-00557,15/06/2026,Seamless Brief - Black,DW-LIN-0126,Black,12.0,1.0,31600,Cash,,manual_entry.xlsx,24,Unprocessed,SKU_MATCHED,PRD-0126,DW-LIN-0126
+SALE-00025,,03-May-2026,lace brief,DW-LIN-0184,Green,12.0,1.0,22100,Card,STAFF A,daily_sales.csv,25,Unprocessed,SKU_MATCHED,PRD-0184,DW-LIN-0184
+SALE-00026,TX-00178,03/01/26,Cropped Casual Top Blue 12,DW-CAS-0300,,,3.0,48600,Transfer,STF-02,manual_entry.xlsx,26,Unprocessed,SKU_MATCHED,PRD-0300,DW-CAS-0300
+SALE-00027,TX-00239,2026-06-28,Quick-Dry Yoga Top,,,,1.0,18800,Transfer,STF-01,manual_entry.xlsx,27,Unprocessed,SKU_MISSING,,
+SALE-00028,TX-00374,2026-01-01,Alo Top,,Grey,,1.0,4200(x1),Cash,STF-03,manual_entry.xlsx,28,Unprocessed,SKU_MISSING,,
+SALE-00029,TX-00604,31-May-2026,Ribbed Tank Top Red 12,,,12.0,1.0,"₦6,800",Transfer,,daily_sales.csv,29,Unprocessed,SKU_MISSING,,
+SALE-00030,TX-00107,02/02/2026,Two-Piece Casual Set - Black,,,12.0,1.0,4900,Card,STF-02,daily_sales.csv,30,Unprocessed,SKU_MISSING,,
+SALE-00031,TX-00359,02/03/2026,Jogger Pants,,Green,,1.0,"₦31,000",POS,STF-01,manual_entry.xlsx,31,Unprocessed,SKU_MISSING,,
+SALE-00032,TX-00076,13/01/2026,Lace Trim Bra,,,,1.0,4100(x1),Cash,STF-03,sales_book_export.xlsx,32,Unprocessed,SKU_MISSING,,
+SALE-00033,TX-00442,03/08/26,Camisole Dress Lilac 12,,Lilac,12.0,3.0,27600,Transfer,STAFF A,daily_sales.csv,33,Unprocessed,SKU_MISSING,,
+SALE-00034,,2026-01-14,Quick-Dry Yoga Top Grey 12,DW-ACT-0081,Grey,,1.0,"₦25,600",Card,STF-02,sales_book_export.xlsx,34,Unprocessed,SKU_MATCHED,PRD-0081,DW-ACT-0081
+SALE-00035,TX-00408,2026-01-01,Straight-Leg Jeans - Lilac,DW-TRO-0185,Lilac,12.0,1.0,"₦6,900",Card,,manual_entry.xlsx,35,Unprocessed,SKU_MATCHED,PRD-0185,DW-TRO-0185
+SALE-00036,TX-00155,24-Jan-2026,shirt dress,,Beige,12.0,1.0,"₦27,000",Cash,STF-01,manual_entry.xlsx,36,Unprocessed,SKU_MISSING,,
+SALE-00037,TX-00036,19-May-2026,Strapless Bra,,,,1.0,29100,Transfer,STF-01,daily_sales.csv,37,Unprocessed,SKU_MISSING,,
+SALE-00038,TX-00570,2026-02-12,Women's Activewear Set,DW-ACT-0089,Pink,,3.0,58500,Card,STAFF A,daily_sales.csv,38,Unprocessed,SKU_MATCHED,PRD-0089,DW-ACT-0089
+SALE-00039,TX-00577,2026-05-14,same as last time,DW-UNKNOWN-9999,Black,,1.0,34000,Cash,STF-03,manual_entry.xlsx,39,Unprocessed,SKU_NOT_FOUND,,
+SALE-00040,TX-00051,16-Apr-2026,Strapless Bra,,Red,12.0,1.0,29100,Card,STF-03,daily_sales.csv,40,Unprocessed,SKU_MISSING,,
+SALE-00041,TX-00329,03/28/26,slim fit tee,,,12.0,2.0,12800,POS,,manual_entry.xlsx,41,Unprocessed,SKU_MISSING,,
+SALE-00042,TX-00519,18/02/2026,ladies set,DW-UNKNOWN-9999,Pink,,1.0,30900,Card,STF-02,manual_entry.xlsx,42,Unprocessed,SKU_NOT_FOUND,,
+SALE-00043,TX-00518,08-Jan-2026,black bra,,,,,6800(x2),Card,STF-01,manual_entry.xlsx,43,Unprocessed,SKU_MISSING,,
+SALE-00044,,03-Mar-2026,Straight-Leg Jeans,,,,1.0,11300,Cash,STF-02,manual_entry.xlsx,44,Unprocessed,SKU_MISSING,,
+SALE-00045,TX-00313,2026-02-26,floral midi dress,,,,1.0,18900,POS,,daily_sales.csv,45,Unprocessed,SKU_MISSING,,
+SALE-00046,TX-00111,28-Apr-2026,Relaxed Lounge Pants - Red,,Red,,1.0,"₦28,900",Card,STF-01,daily_sales.csv,46,Unprocessed,SKU_MISSING,,
+SALE-00047,TX-00144,06/13/26,ribbed tank top,DW-CAS-0142,Lilac,12.0,1.0,34000,Cash,,daily_sales.csv,47,Unprocessed,SKU_MATCHED,PRD-0142,DW-CAS-0142
+SALE-00048,TX-00572,18-Apr-2026,Floral Midi Dress,,,12.0,1.0,20500,Transfer,STF-03,sales_book_export.xlsx,48,Unprocessed,SKU_MISSING,,
+SALE-00049,TX-00340,02/02/26,Sleep Robe Set,,Pink,,2.0,32800(x2),POS,STF-03,manual_entry.xlsx,49,Unprocessed,SKU_MISSING,,
+SALE-00050,TX-00206,29/04/2026,Two-Piece Casual Set,DW-SET-0151,Black,12.0,2.0,"₦9,800",POS,,manual_entry.xlsx,50,Unprocessed,SKU_MATCHED,PRD-0151,DW-SET-0151
+SALE-00051,TX-00091,06/02/2026,Soft Knit Co-ord,,,12.0,1.0,30200(x1),Transfer,STAFF A,daily_sales.csv,51,Unprocessed,SKU_MISSING,,
+SALE-00052,,14/04/2026,Men's Athletic Set,DW-ACT-0220,Lilac,12.0,1.0,26300,Cash,STF-02,sales_book_export.xlsx,52,Unprocessed,SKU_MATCHED,PRD-0220,DW-ACT-0220
+SALE-00053,TX-00138,21-Mar-2026,strapless bra,DW-LIN-0177,,12.0,1.0,"₦29,100",POS,,daily_sales.csv,53,Unprocessed,SKU_MATCHED,PRD-0177,DW-LIN-0177
+SALE-00054,TX-00039,12/02/2026,ladies set,,,,3.0,26400,Card,STF-03,manual_entry.xlsx,54,Unprocessed,SKU_MISSING,,
+SALE-00055,TX-00104,2026-06-02,Alo Top,,Black,12.0,4.0,118400,POS,STAFF A,manual_entry.xlsx,55,Unprocessed,SKU_MISSING,,
+SALE-00056,TX-00420,18/04/2026,Matching Top and Skirt Set,DW-SET-0071,,12.0,2.0,55400,POS,STF-02,sales_book_export.xlsx,56,Unprocessed,SKU_MATCHED,PRD-0071,DW-SET-0071
+SALE-00057,TX-00104,2026-05-08,lace brief,,Black,,3.0,15900,POS,STF-02,daily_sales.csv,57,Unprocessed,SKU_MISSING,,
+SALE-00058,,2026-03-09,Oversized Lounge Top White 12,,,12.0,1.0,"₦7,300",Transfer,STF-02,daily_sales.csv,58,Unprocessed,SKU_MISSING,,
+SALE-00059,TX-00490,04/23/26,Lace Brief,DW-LIN-0184,Green,12.0,3.0,"₦66,300",Card,STF-02,sales_book_export.xlsx,59,Unprocessed,SKU_MATCHED,PRD-0184,DW-LIN-0184
+SALE-00060,TX-00368,28/06/2026,same as last time,,,,2.0,67800,Cash,STF-02,daily_sales.csv,60,Unprocessed,SKU_MISSING,,
+SALE-00061,TX-00098,29-Jan-2026,Ladies Baggy Jeans,DW-TRO-0250,Blue,12.0,2.0,53400,Card,STF-02,daily_sales.csv,61,Unprocessed,SKU_MATCHED,PRD-0250,DW-TRO-0250
+SALE-00062,TX-00329,2026-06-19,Alo Top,DW-CAS-0178,,12.0,1.0,"₦9,000",Transfer,STF-03,daily_sales.csv,62,Unprocessed,SKU_MATCHED,PRD-0178,DW-CAS-0178
+SALE-00063,TX-00019,05/10/26,seamless brief,,Green,,1.0,8200(x1),Cash,,daily_sales.csv,63,Unprocessed,SKU_MISSING,,
+SALE-00064,TX-00466,2026-05-23,Jogger Pants,,,,1.0,17200,POS,STAFF A,manual_entry.xlsx,64,Unprocessed,SKU_MISSING,,
+SALE-00065,,2026-06-18,Sports Bra,,Blue,12.0,1.0,"₦3,400",Transfer,,sales_book_export.xlsx,65,Unprocessed,SKU_MISSING,,
+SALE-00066,,01/28/26,Lace Butterfly Pajama Set,,Lilac,12.0,1.0,13700,Cash,,daily_sales.csv,66,Unprocessed,SKU_MISSING,,
+SALE-00067,TX-00615,04/02/2026,Strapless Bra,,Lilac,12.0,3.0,30300,POS,STAFF A,daily_sales.csv,67,Unprocessed,SKU_MISSING,,
+SALE-00068,TX-00567,05-Jun-2026,sleep robe set,,White,12.0,3.0,105000,Transfer,STF-02,sales_book_export.xlsx,68,Unprocessed,SKU_MISSING,,
+SALE-00069,TX-00547,06/25/26,Seamless Brief,,,,1.0,16900,POS,,sales_book_export.xlsx,69,Unprocessed,SKU_MISSING,,
+SALE-00070,TX-00303,2026-01-28,Quick-Dry Yoga Top,DW-ACT-0268,,12.0,1.0,"₦15,200",Transfer,STAFF A,sales_book_export.xlsx,70,Unprocessed,SKU_MATCHED,PRD-0268,DW-ACT-0268
+SALE-00071,TX-00049,26-Apr-2026,sleepwear,DW-UNKNOWN-9999,,,1.0,22100,Card,,daily_sales.csv,71,Unprocessed,SKU_NOT_FOUND,,
+SALE-00072,TX-00199,22/05/2026,High-Waist Leggings,,,,1.0,29900,POS,,sales_book_export.xlsx,72,Unprocessed,SKU_MISSING,,
+SALE-00073,,17/02/2026,Ladies Baggy Jeans,DW-NIG-0239,,,3.0,46200,POS,STAFF A,sales_book_export.xlsx,73,Unprocessed,SKU_MATCHED,PRD-0239,DW-NIG-0239
+SALE-00074,TX-00550,06/05/2026,Ribbed Lounge Set,,Pink,12.0,2.0,12200,Card,STF-01,daily_sales.csv,74,Unprocessed,SKU_MISSING,,
+SALE-00075,TX-00250,24/02/2026,two-piece casual set,DW-SET-0114,,12.0,1.0,5300,Cash,STF-03,daily_sales.csv,75,Unprocessed,SKU_MATCHED,PRD-0114,DW-SET-0114
+SALE-00076,TX-00099,09-Apr-2026,Ribbed Lounge Set,,,,1.0,10700,Transfer,STAFF A,manual_entry.xlsx,76,Unprocessed,SKU_MISSING,,
+SALE-00077,,10/06/2026,Lace Butterfly Bra,,,12.0,1.0,22000,POS,STF-01,sales_book_export.xlsx,77,Unprocessed,SKU_MISSING,,
+SALE-00078,,14-Jan-2026,Wide-Leg Trousers,,Blue,12.0,1.0,"₦12,700",Cash,STAFF A,sales_book_export.xlsx,78,Unprocessed,SKU_MISSING,,
+SALE-00079,TX-00547,2026-05-30,soft knit co-ord,,White,,1.0,28100(x1),Transfer,STF-02,manual_entry.xlsx,79,Unprocessed,SKU_MISSING,,
+SALE-00080,,2026-05-20,matching top and skirt set,,,,1.0,4200,Card,STAFF A,manual_entry.xlsx,80,Unprocessed,SKU_MISSING,,
+SALE-00081,TX-00581,2026-03-20,Alo Top,,,,1.0,4500,Cash,STAFF A,daily_sales.csv,81,Unprocessed,SKU_MISSING,,
+SALE-00082,TX-00072,2026-01-19,Relaxed Lounge Pants,DW-LOU-0282,Beige,,1.0,"₦28,700",Transfer,STF-03,daily_sales.csv,82,Unprocessed,SKU_MATCHED,PRD-0282,DW-LOU-0282
+SALE-00083,TX-00447,26/03/2026,Camisole Pajama Set Green 12,,Green,12.0,1.0,"₦36,900",POS,STF-03,sales_book_export.xlsx,83,Unprocessed,SKU_MISSING,,
+SALE-00084,TX-00202,03/05/2026,camisole dress,DW-DRE-0170,Beige,12.0,1.0,23600,POS,STF-01,manual_entry.xlsx,84,Unprocessed,SKU_MATCHED,PRD-0170,DW-DRE-0170
+SALE-00085,TX-00604,01/05/26,Ladies Baggy Jeans,,,12.0,,30800,POS,STF-02,daily_sales.csv,85,Unprocessed,SKU_MISSING,,
+SALE-00086,TX-00580,11/05/2026,Jogger Pants,,,,1.0,23200,Transfer,,daily_sales.csv,86,Unprocessed,SKU_MISSING,,
+SALE-00087,,2026-02-26,ribbed tank top,DW-CAS-0021,Navy,12.0,2.0,"₦28,200",POS,STF-01,manual_entry.xlsx,87,Unprocessed,SKU_MATCHED,PRD-0021,DW-CAS-0021
+SALE-00088,TX-00362,12/06/2026,ribbed lounge set,,,,2.0,42000,POS,,daily_sales.csv,88,Unprocessed,SKU_MISSING,,
+SALE-00089,TX-00425,2026-05-09,Lace Butterfly Bra Black 12,DW-LIN-0004,Black,12.0,2.0,44000,POS,STF-01,daily_sales.csv,89,Unprocessed,SKU_MATCHED,PRD-0004,DW-LIN-0004
+SALE-00090,,03/05/2026,Women's Activewear Set - White,DW-ACT-0246,White,12.0,1.0,23300,POS,STF-02,manual_entry.xlsx,90,Unprocessed,SKU_MATCHED,PRD-0246,DW-ACT-0246
+SALE-00091,TX-00597,06/03/26,Seamless Brief,,,,3.0,12600,Transfer,STAFF A,manual_entry.xlsx,91,Unprocessed,SKU_MISSING,,
+SALE-00092,TX-00615,09/03/2026,ribbed tank top,,Black,,1.0,30900(x1),Cash,STAFF A,manual_entry.xlsx,92,Unprocessed,SKU_MISSING,,
+SALE-00093,TX-00494,01/24/26,Sports Bra,,,12.0,1.0,"₦19,700",Card,STF-03,manual_entry.xlsx,93,Unprocessed,SKU_MISSING,,
+SALE-00094,TX-00121,2026-01-26,Lace Butterfly Pajama Set Pink 12,,Pink,12.0,1.0,"₦17,400",Cash,,manual_entry.xlsx,94,Unprocessed,SKU_MISSING,,
+SALE-00095,TX-00424,06/26/26,Shorts Set,DW-SET-0106,Black,12.0,2.0,"₦17,200",Card,STF-02,daily_sales.csv,95,Unprocessed,SKU_MATCHED,PRD-0106,DW-SET-0106
+SALE-00096,TX-00166,23/05/2026,pink one,,Black,,1.0,10800(x2),Cash,STF-02,manual_entry.xlsx,96,Unprocessed,SKU_MISSING,,
+SALE-00097,TX-00228,2026-03-28,Slim Fit Tee,,Navy,,,5800(x2),POS,STF-01,manual_entry.xlsx,97,Unprocessed,SKU_MISSING,,
+SALE-00098,TX-00531,09/04/2026,heart print t-shirt,,Green,,3.0,96900,POS,STF-02,sales_book_export.xlsx,98,Unprocessed,SKU_MISSING,,
+SALE-00099,TX-00071,13/05/2026,Ribbed Tank Top,DW-CAS-0262,Black,12.0,2.0,61800,Cash,STAFF A,daily_sales.csv,99,Unprocessed,SKU_MATCHED,PRD-0262,DW-CAS-0262
+SALE-00100,TX-00110,30/05/2026,the usual top,,Black,,1.0,10800,Cash,STAFF A,daily_sales.csv,100,Unprocessed,SKU_MISSING,,
+SALE-00101,TX-00470,30-Jan-2026,pink one,DW-UNKNOWN-9999,Pink,,2.0,15800,Card,STAFF A,sales_book_export.xlsx,101,Unprocessed,SKU_NOT_FOUND,,
+SALE-00102,TX-00096,30-Jan-2026,Matching Top and Skirt Set Red 12,,Red,12.0,1.0,"₦7,700",Card,STF-03,sales_book_export.xlsx,102,Unprocessed,SKU_MISSING,,
+SALE-00103,TX-00212,15/02/2026,women's activewear set,DW-ACT-0284,,,1.0,4400,Transfer,STF-02,sales_book_export.xlsx,103,Unprocessed,SKU_MATCHED,PRD-0284,DW-ACT-0284
+SALE-00104,TX-00589,09-Feb-2026,Sports Bra,,Blue,12.0,2.0,47800,POS,,sales_book_export.xlsx,104,Unprocessed,SKU_MISSING,,
+SALE-00105,TX-00531,03/13/26,Ribbed Tank Top,DW-CAS-0262,,,1.0,30900,Card,STF-03,manual_entry.xlsx,105,Unprocessed,SKU_MATCHED,PRD-0262,DW-CAS-0262
+SALE-00106,TX-00511,04-Jan-2026,Lace Butterfly Pajama Set,DW-NIG-0005,Black,12.0,1.0,"₦11,200",Card,STF-02,daily_sales.csv,106,Unprocessed,SKU_MATCHED,PRD-0005,DW-NIG-0005
+SALE-00107,TX-00201,04/04/26,Sports Bra White 12,,,12.0,2.0,10200,Transfer,STF-02,daily_sales.csv,107,Unprocessed,SKU_MISSING,,
+SALE-00108,TX-00261,2026-02-15,lace butterfly pajama set,,Black,12.0,1.0,11200,Card,STF-01,daily_sales.csv,108,Unprocessed,SKU_MISSING,,
+SALE-00109,TX-00292,08/03/2026,lace butterfly pajama set,DW-NIG-0172,White,12.0,1.0,20600,POS,STF-03,manual_entry.xlsx,109,Unprocessed,SKU_MATCHED,PRD-0172,DW-NIG-0172
+SALE-00110,TX-00586,05-May-2026,Ribbed Tank Top,DW-CAS-0262,Black,12.0,2.0,61800,Card,STF-01,sales_book_export.xlsx,110,Unprocessed,SKU_MATCHED,PRD-0262,DW-CAS-0262
+SALE-00111,TX-00189,03/29/26,camisole dress,,Green,12.0,1.0,"₦7,100",Cash,STF-02,manual_entry.xlsx,111,Unprocessed,SKU_MISSING,,
+SALE-00112,TX-00160,2026-06-19,Relaxed Lounge Pants,DW-LOU-0121,Red,12.0,,24300,Cash,,daily_sales.csv,112,Unprocessed,SKU_MATCHED,PRD-0121,DW-LOU-0121
+SALE-00113,TX-00554,03/05/26,Cropped Casual Top White 12,DW-CAS-0118,,12.0,2.0,"₦15,200",POS,STAFF A,daily_sales.csv,113,Unprocessed,SKU_MATCHED,PRD-0118,DW-CAS-0118
+SALE-00114,TX-00453,28/06/2026,shorts set,,,,1.0,20600,POS,STF-03,daily_sales.csv,114,Unprocessed,SKU_MISSING,,
+SALE-00115,TX-00300,2026-02-09,Lace Brief Blue 12,DW-LIN-0134,Blue,12.0,1.0,"₦13,700",Transfer,STF-01,manual_entry.xlsx,115,Unprocessed,SKU_MATCHED,PRD-0134,DW-LIN-0134
+SALE-00116,TX-00279,18/02/2026,Satin Nightgown - Green,DW-NIG-0192,Green,12.0,1.0,"₦30,600",POS,STAFF A,daily_sales.csv,116,Unprocessed,SKU_MATCHED,PRD-0192,DW-NIG-0192
+SALE-00117,TX-00023,2026-02-18,strapless bra,DW-LIN-0212,Lilac,12.0,2.0,"₦60,400",Transfer,STF-01,daily_sales.csv,117,Unprocessed,SKU_MATCHED,PRD-0212,DW-LIN-0212
+SALE-00118,TX-00150,2026-02-02,Alo Top,DW-CAS-0138,Pink,12.0,2.0,40000,Cash,STF-03,daily_sales.csv,118,Unprocessed,SKU_MATCHED,PRD-0138,DW-CAS-0138
+SALE-00119,TX-00035,20/05/2026,lingerie set,,,12.0,1.0,7400,Transfer,,manual_entry.xlsx,119,Unprocessed,SKU_MISSING,,
+SALE-00120,TX-00306,2026-05-14,Slim Fit Tee - Pink,,Pink,12.0,1.0,26300,Transfer,STF-03,sales_book_export.xlsx,120,Unprocessed,SKU_MISSING,,
+SALE-00121,TX-00159,01/29/26,Soft Knit Co-ord,DW-ACT-0022,Red,12.0,1.0,20000,POS,STF-01,sales_book_export.xlsx,121,Unprocessed,SKU_MATCHED,PRD-0022,DW-ACT-0022
+SALE-00122,TX-00450,08-May-2026,Quick-Dry Yoga Top,DW-ACT-0081,,12.0,1.0,25600(x1),Transfer,STF-01,manual_entry.xlsx,122,Unprocessed,SKU_MATCHED,PRD-0081,DW-ACT-0081
+SALE-00123,TX-00480,02-Apr-2026,Slim Fit Tee,DW-CAS-0194,Beige,12.0,2.0,"₦28,400",POS,STAFF A,manual_entry.xlsx,123,Unprocessed,SKU_MATCHED,PRD-0194,DW-CAS-0194
+SALE-00124,TX-00245,18-Jan-2026,camisole dress,DW-DRE-0083,Green,,1.0,"₦7,100",POS,STF-01,manual_entry.xlsx,124,Unprocessed,SKU_MATCHED,PRD-0083,DW-DRE-0083
+SALE-00125,TX-00207,10/04/2026,Ribbed Lounge Set,DW-LOU-0276,Pink,,1.0,26200(x1),Cash,,sales_book_export.xlsx,125,Unprocessed,SKU_MATCHED,PRD-0276,DW-LOU-0276
+SALE-00126,TX-00063,2026-01-09,Lace Butterfly Pajama Set,DW-SET-0107,,,,21400,POS,STAFF A,manual_entry.xlsx,126,Unprocessed,SKU_MATCHED,PRD-0107,DW-SET-0107
+SALE-00127,TX-00237,2026-04-05,seamless brief,DW-LIN-0213,,,2.0,14800,Card,STF-02,sales_book_export.xlsx,127,Unprocessed,SKU_MATCHED,PRD-0213,DW-LIN-0213
+SALE-00128,TX-00185,2026-06-18,Camisole Dress,,,,1.0,5400,Card,STAFF A,daily_sales.csv,128,Unprocessed,SKU_MISSING,,
+SALE-00129,TX-00577,17-May-2026,quick-dry yoga top,,Grey,,4.0,"₦102,400",Transfer,,manual_entry.xlsx,129,Unprocessed,SKU_MISSING,,
+SALE-00130,,03-Apr-2026,Quick-Dry Yoga Top - Grey,DW-ACT-0131,Grey,12.0,3.0,75600,Transfer,STF-02,daily_sales.csv,130,Unprocessed,SKU_MATCHED,PRD-0131,DW-ACT-0131
+SALE-00131,TX-00597,26/06/2026,pink one,DW-UNKNOWN-9999,Black,,2.0,23400(x2),Transfer,STF-02,daily_sales.csv,131,Unprocessed,SKU_NOT_FOUND,,
+SALE-00132,TX-00308,2026-01-24,Slim Fit Tee Navy 12,,,,1.0,17100,Cash,STAFF A,daily_sales.csv,132,Unprocessed,SKU_MISSING,,
+SALE-00133,TX-00392,2026-01-15,Lingerie Set - Beige,DW-LIN-0041,,,3.0,60300,Cash,STF-03,manual_entry.xlsx,133,Unprocessed,SKU_MATCHED,PRD-0041,DW-LIN-0041
+SALE-00134,TX-00297,2026-03-23,Men's Athletic Set Pink 12,DW-ACT-0022,Pink,,1.0,"₦8,000",Card,STF-02,sales_book_export.xlsx,134,Unprocessed,SKU_MATCHED,PRD-0022,DW-ACT-0022
+SALE-00135,TX-00201,01/22/26,Wide-Leg Trousers,,Beige,,1.0,27400,Transfer,STF-02,sales_book_export.xlsx,135,Unprocessed,SKU_MISSING,,
+SALE-00136,TX-00174,2026-04-21,that pink set,,Black,,1.0,23100,POS,STAFF A,daily_sales.csv,136,Unprocessed,SKU_MISSING,,
+SALE-00137,,23-Apr-2026,Wireless Bra,,Black,,1.0,22500,Cash,STF-03,daily_sales.csv,137,Unprocessed,SKU_MISSING,,
+SALE-00138,TX-00540,01/06/26,Sleep Robe Set,,,12.0,1.0,16400,Cash,STF-03,sales_book_export.xlsx,138,Unprocessed,SKU_MISSING,,
+SALE-00139,TX-00390,03/14/26,floral midi dress,DW-DRE-0031,,12.0,1.0,11100,Cash,STF-03,daily_sales.csv,139,Unprocessed,SKU_MATCHED,PRD-0031,DW-DRE-0031
+SALE-00140,,23/01/2026,Satin Nightgown - Beige,,Beige,12.0,1.0,"₦4,900",POS,STF-03,manual_entry.xlsx,140,Unprocessed,SKU_MISSING,,
+SALE-00141,TX-00350,02-Mar-2026,the usual top,,Black,,4.0,24400,Card,STF-02,sales_book_export.xlsx,141,Unprocessed,SKU_MISSING,,
+SALE-00142,TX-00208,14/05/2026,Matching Top and Skirt Set,,,,3.0,88500,Transfer,STF-03,manual_entry.xlsx,142,Unprocessed,SKU_MISSING,,
+SALE-00143,TX-00150,2026-02-04,same as last time,,Black,,1.0,18000,Cash,STF-03,daily_sales.csv,143,Unprocessed,SKU_MISSING,,
+SALE-00144,TX-00237,19-Mar-2026,sleepwear,DW-UNKNOWN-9999,Pink,,1.0,6300,Transfer,STF-02,manual_entry.xlsx,144,Unprocessed,SKU_NOT_FOUND,,
+SALE-00145,,02/04/2026,Oversized Lounge Top,,,,1.0,13200,Cash,STF-03,daily_sales.csv,145,Unprocessed,SKU_MISSING,,
+SALE-00146,TX-00390,2026-06-21,Two-Piece Casual Set,DW-SET-0114,,,4.0,21200,POS,,manual_entry.xlsx,146,Unprocessed,SKU_MATCHED,PRD-0114,DW-SET-0114
+SALE-00147,TX-00529,2026-06-02,Straight-Leg Jeans,,,,1.0,15400(x1),Cash,STF-02,daily_sales.csv,147,Unprocessed,SKU_MISSING,,
+SALE-00148,TX-00116,2026-04-12,heart print t-shirt,,,,,26800,Transfer,STAFF A,manual_entry.xlsx,148,Unprocessed,SKU_MISSING,,
+SALE-00149,TX-00168,04-Feb-2026,Sleep Robe Set,DW-NIG-0280,Pink,12.0,1.0,29800,Cash,STF-01,sales_book_export.xlsx,149,Unprocessed,SKU_MATCHED,PRD-0280,DW-NIG-0280
+SALE-00150,TX-00580,12/06/2026,Camisole Pajama Set - Green,,,12.0,1.0,36900,Transfer,STF-02,sales_book_export.xlsx,150,Unprocessed,SKU_MISSING,,
+SALE-00151,TX-00557,01/14/26,Ribbed Tank Top - Lilac,DW-LIN-0130,Lilac,,1.0,5800,Cash,STAFF A,daily_sales.csv,151,Unprocessed,SKU_MATCHED,PRD-0130,DW-LIN-0130
+SALE-00152,,25/02/2026,Seamless Brief - Pink,DW-LIN-0122,Pink,12.0,1.0,"₦18,500",Transfer,STF-01,manual_entry.xlsx,152,Unprocessed,SKU_MATCHED,PRD-0122,DW-LIN-0122
+SALE-00153,TX-00593,10/01/2026,relaxed lounge pants,DW-LOU-0179,Red,12.0,1.0,28900,POS,STF-01,sales_book_export.xlsx,153,Unprocessed,SKU_MATCHED,PRD-0179,DW-LOU-0179
+SALE-00154,TX-00424,24-Mar-2026,Slim Fit Tee,,,12.0,1.0,"₦17,100",Transfer,STF-02,manual_entry.xlsx,154,Unprocessed,SKU_MISSING,,
+SALE-00155,TX-00325,01/28/26,pink one,,Pink,,1.0,32400,POS,STAFF A,manual_entry.xlsx,155,Unprocessed,SKU_MISSING,,
+SALE-00156,TX-00121,2026-02-03,Ribbed Lounge Set - Grey,DW-LOU-0182,Grey,12.0,1.0,"₦8,500",Transfer,STAFF A,daily_sales.csv,156,Unprocessed,SKU_MATCHED,PRD-0182,DW-LOU-0182
+SALE-00157,TX-00117,12-Jan-2026,Strapless Bra Lilac 12,DW-LIN-0212,Lilac,12.0,1.0,30200,POS,STF-03,daily_sales.csv,157,Unprocessed,SKU_MATCHED,PRD-0212,DW-LIN-0212
+SALE-00158,TX-00424,07-Jun-2026,Slim Fit Tee,,Green,,3.0,20400,Cash,STAFF A,daily_sales.csv,158,Unprocessed,SKU_MISSING,,
+SALE-00159,TX-00385,2026-06-23,Strapless Bra Lilac 12,,Lilac,,1.0,"₦24,700",Transfer,STAFF A,manual_entry.xlsx,159,Unprocessed,SKU_MISSING,,
+SALE-00160,TX-00310,17/02/2026,same as last time,,Black,,1.0,19500,Transfer,STAFF A,daily_sales.csv,160,Unprocessed,SKU_MISSING,,
+SALE-00161,TX-00537,29-Jan-2026,Wireless Bra White 12,,White,12.0,1.0,"₦16,900",POS,STF-03,sales_book_export.xlsx,161,Unprocessed,SKU_MISSING,,
+SALE-00162,TX-00048,2026-05-13,Lace Butterfly Pajama Set,DW-NIG-0051,White,12.0,1.0,21400,Cash,STAFF A,manual_entry.xlsx,162,Unprocessed,SKU_MATCHED,PRD-0051,DW-NIG-0051
+SALE-00163,TX-00281,06-Jan-2026,Wireless Bra Lilac 12,DW-LIN-0160,Lilac,12.0,1.0,"₦3,200",Cash,STF-01,manual_entry.xlsx,163,Unprocessed,SKU_MATCHED,PRD-0160,DW-LIN-0160
+SALE-00164,TX-00052,12-May-2026,lace butterfly pajama set,DW-NIG-0287,,,1.0,10800,Transfer,STF-01,daily_sales.csv,164,Unprocessed,SKU_MATCHED,PRD-0287,DW-NIG-0287
+SALE-00165,TX-00547,28/01/2026,Seamless Brief - Green,DW-LIN-0026,Green,12.0,1.0,"₦8,200",Cash,,manual_entry.xlsx,165,Unprocessed,SKU_MATCHED,PRD-0026,DW-LIN-0026
+SALE-00166,TX-00265,24/01/2026,ladies set,,Pink,,2.0,67800,POS,,sales_book_export.xlsx,166,Unprocessed,SKU_MISSING,,
+SALE-00167,TX-00416,25/03/2026,Camisole Dress - Beige,DW-DRE-0170,Beige,,1.0,"₦23,600",Cash,STF-03,manual_entry.xlsx,167,Unprocessed,SKU_MATCHED,PRD-0170,DW-DRE-0170
+SALE-00168,TX-00446,03/19/26,Lingerie Set - Green,DW-LIN-0037,Green,12.0,1.0,"₦7,400",POS,STAFF A,manual_entry.xlsx,168,Unprocessed,SKU_MATCHED,PRD-0037,DW-LIN-0037
+SALE-00169,TX-00112,02/14/26,Relaxed Lounge Pants - Red,DW-LOU-0121,Red,12.0,1.0,24300,Card,STF-03,daily_sales.csv,169,Unprocessed,SKU_MATCHED,PRD-0121,DW-LOU-0121
+SALE-00170,TX-00325,24/01/2026,Satin Nightgown,,Beige,12.0,1.0,"₦19,400",POS,STAFF A,manual_entry.xlsx,170,Unprocessed,SKU_MISSING,,
+SALE-00171,TX-00563,2026-04-22,that pink set,DW-UNKNOWN-9999,,,2.0,23600,Cash,STF-01,manual_entry.xlsx,171,Unprocessed,SKU_NOT_FOUND,,
+SALE-00172,TX-00178,04/02/26,Lace Butterfly Pajama Set,DW-NIG-0287,Grey,12.0,1.0,"₦10,800",Card,STF-02,sales_book_export.xlsx,172,Unprocessed,SKU_MATCHED,PRD-0287,DW-NIG-0287
+SALE-00173,TX-00140,04/09/26,Relaxed Lounge Pants - Navy,DW-ACT-0009,,12.0,2.0,15600,Cash,STF-02,manual_entry.xlsx,173,Unprocessed,SKU_MATCHED,PRD-0009,DW-ACT-0009
+SALE-00174,TX-00243,04/27/26,seamless brief,,,,2.0,14800,POS,,manual_entry.xlsx,174,Unprocessed,SKU_MISSING,,
+SALE-00175,TX-00081,04-Apr-2026,Shirt Dress - Pink,,Pink,12.0,1.0,26800,Cash,STF-02,daily_sales.csv,175,Unprocessed,SKU_MISSING,,
+SALE-00176,TX-00302,25-Jun-2026,jogger pants,,,,,31000,POS,STF-02,sales_book_export.xlsx,176,Unprocessed,SKU_MISSING,,
+SALE-00177,TX-00285,2026-05-25,High-Waist Leggings,DW-ACT-0156,Beige,,1.0,11800,POS,STF-02,manual_entry.xlsx,177,Unprocessed,SKU_MATCHED,PRD-0156,DW-ACT-0156
+SALE-00178,TX-00541,12/03/2026,Sports Bra,,,,2.0,"₦54,400",Cash,STF-03,sales_book_export.xlsx,178,Unprocessed,SKU_MISSING,,
+SALE-00179,,02-Jun-2026,Wireless Bra - Black,,Black,12.0,3.0,"₦67,500",POS,STF-01,sales_book_export.xlsx,179,Unprocessed,SKU_MISSING,,
+SALE-00180,TX-00460,29-Apr-2026,Ladies Baggy Jeans Blue 12,DW-TRO-0086,Blue,12.0,1.0,15400,Card,STF-03,manual_entry.xlsx,180,Unprocessed,SKU_MATCHED,PRD-0086,DW-TRO-0086
+SALE-00181,TX-00603,25/01/2026,men's athletic set,,,12.0,3.0,24000,Transfer,STAFF A,daily_sales.csv,181,Unprocessed,SKU_MISSING,,
+SALE-00182,,2026-03-22,Bodycon Dress,DW-DRE-0093,Red,12.0,1.0,6000,Transfer,STAFF A,manual_entry.xlsx,182,Unprocessed,SKU_MATCHED,PRD-0093,DW-DRE-0093
+SALE-00183,TX-00284,2026-01-31,ribbed tank top,,,,1.0,22000,Card,STF-03,daily_sales.csv,183,Unprocessed,SKU_MISSING,,
+SALE-00184,TX-00183,19/01/2026,Camisole Dress - Green,DW-DRE-0083,Green,,1.0,"₦7,100",Card,STF-01,sales_book_export.xlsx,184,Unprocessed,SKU_MATCHED,PRD-0083,DW-DRE-0083
+SALE-00185,TX-00400,2026-04-21,women slim fit solid 3-piece suit,DW-CAS-0255,Pink,12.0,1.0,8100,POS,STF-02,manual_entry.xlsx,185,Unprocessed,SKU_MATCHED,PRD-0255,DW-CAS-0255
+SALE-00186,TX-00549,04/11/26,Shirt Dress - White,DW-DRE-0169,White,,1.0,11800,POS,STF-03,manual_entry.xlsx,186,Unprocessed,SKU_MATCHED,PRD-0169,DW-DRE-0169
+SALE-00187,TX-00181,13-Apr-2026,sleepwear,,Pink,,1.0,11800,Cash,,manual_entry.xlsx,187,Unprocessed,SKU_MISSING,,
+SALE-00188,TX-00608,2026-03-18,sleepwear,DW-UNKNOWN-9999,Pink,,2.0,59200,Transfer,,daily_sales.csv,188,Unprocessed,SKU_NOT_FOUND,,
+SALE-00189,TX-00536,2026-05-19,Soft Knit Co-ord - White,,White,12.0,1.0,"₦28,100",Card,STAFF A,sales_book_export.xlsx,189,Unprocessed,SKU_MISSING,,
+SALE-00190,TX-00052,2026-03-01,Lace Brief Pink 12,DW-LIN-0297,Pink,,3.0,53400,POS,STF-01,daily_sales.csv,190,Unprocessed,SKU_MATCHED,PRD-0297,DW-LIN-0297
+SALE-00191,TX-00219,01/06/2026,Wireless Bra,,,12.0,1.0,31300,Cash,STAFF A,sales_book_export.xlsx,191,Unprocessed,SKU_MISSING,,
+SALE-00192,TX-00386,2026-01-17,Lace Butterfly Pajama Set - White,DW-NIG-0172,White,12.0,1.0,20600,Transfer,STF-01,daily_sales.csv,192,Unprocessed,SKU_MATCHED,PRD-0172,DW-NIG-0172
+SALE-00193,TX-00278,02/01/2026,sleepwear,DW-UNKNOWN-9999,Black,,1.0,7400,Card,,sales_book_export.xlsx,193,Unprocessed,SKU_NOT_FOUND,,
+SALE-00194,TX-00553,2026-06-06,Wireless Bra,,,,2.0,33800,Transfer,,manual_entry.xlsx,194,Unprocessed,SKU_MISSING,,
+SALE-00195,TX-00292,2026-03-12,Shorts Set Red 12,,,12.0,1.0,22800,Transfer,,daily_sales.csv,195,Unprocessed,SKU_MISSING,,
+SALE-00196,TX-00334,06/07/26,Lace Butterfly Pajama Set,DW-NIG-0172,White,,2.0,41200(x2),Card,STF-02,manual_entry.xlsx,196,Unprocessed,SKU_MATCHED,PRD-0172,DW-NIG-0172
+SALE-00197,TX-00149,2026-02-28,Straight-Leg Jeans,DW-TRO-0167,Green,12.0,2.0,14200,Transfer,STAFF A,daily_sales.csv,197,Unprocessed,SKU_MATCHED,PRD-0167,DW-TRO-0167
+SALE-00198,TX-00477,10-Apr-2026,Ribbed Tank Top Lilac 12,,,12.0,1.0,5800,Card,,sales_book_export.xlsx,198,Unprocessed,SKU_MISSING,,
+SALE-00199,TX-00474,26/02/2026,Lingerie Set,,,,2.0,24200,POS,STF-01,manual_entry.xlsx,199,Unprocessed,SKU_MISSING,,
+SALE-00200,TX-00517,03/05/26,Men's Athletic Set Lilac 12,,Lilac,12.0,1.0,26300,Cash,,manual_entry.xlsx,200,Unprocessed,SKU_MISSING,,
+SALE-00201,,2026-05-03,Strapless Bra,,Grey,,,56200,POS,STF-02,manual_entry.xlsx,201,Unprocessed,SKU_MISSING,,
+SALE-00202,TX-00002,05/27/26,Ladies Baggy Jeans - Green,DW-TRO-0236,Green,12.0,2.0,45800,Cash,,manual_entry.xlsx,202,Unprocessed,SKU_MATCHED,PRD-0236,DW-TRO-0236
+SALE-00203,TX-00057,16-May-2026,wide-leg trousers,,White,12.0,1.0,5300,POS,STF-01,sales_book_export.xlsx,203,Unprocessed,SKU_MISSING,,
+SALE-00204,TX-00595,2026-04-04,shorts set,DW-SET-0197,Black,12.0,1.0,32500,Transfer,STF-02,daily_sales.csv,204,Unprocessed,SKU_MATCHED,PRD-0197,DW-SET-0197
+SALE-00205,TX-00377,10-Mar-2026,Satin Nightgown,DW-NIG-0181,Black,12.0,1.0,37900,Cash,STF-02,daily_sales.csv,205,Unprocessed,SKU_MATCHED,PRD-0181,DW-NIG-0181
+SALE-00206,TX-00555,2026-01-21,Matching Top and Skirt Set,DW-SET-0045,Green,12.0,1.0,"₦11,500",Transfer,,daily_sales.csv,206,Unprocessed,SKU_MATCHED,PRD-0045,DW-SET-0045
+SALE-00207,TX-00543,24-Apr-2026,Quick-Dry Yoga Top Beige 12,DW-ACT-0216,,12.0,2.0,"₦66,400",Card,,daily_sales.csv,207,Unprocessed,SKU_MATCHED,PRD-0216,DW-ACT-0216
+SALE-00208,TX-00165,03/02/2026,lingerie set,DW-LIN-0291,Black,12.0,2.0,46400,POS,STF-02,sales_book_export.xlsx,208,Unprocessed,SKU_MATCHED,PRD-0291,DW-LIN-0291
+SALE-00209,TX-00152,11-Feb-2026,women's activewear set,,Green,12.0,1.0,24500,POS,,manual_entry.xlsx,209,Unprocessed,SKU_MISSING,,
+SALE-00210,TX-00303,17-May-2026,ladies set,,,,1.0,17700,Card,STF-03,manual_entry.xlsx,210,Unprocessed,SKU_MISSING,,
+SALE-00211,,25-May-2026,the usual top,DW-UNKNOWN-9999,,,2.0,67000,Transfer,,daily_sales.csv,211,Unprocessed,SKU_NOT_FOUND,,
+SALE-00212,TX-00326,03/25/26,Men's Athletic Set,,,,1.0,19000(x1),Cash,STF-03,daily_sales.csv,212,Unprocessed,SKU_MISSING,,
+SALE-00213,TX-00296,04/20/26,wide-leg trousers,DW-TRO-0076,Beige,12.0,1.0,33500,Transfer,,manual_entry.xlsx,213,Unprocessed,SKU_MATCHED,PRD-0076,DW-TRO-0076
+SALE-00214,TX-00570,05-Feb-2026,Seamless Brief,,,,2.0,14800(x2),Card,STAFF A,sales_book_export.xlsx,214,Unprocessed,SKU_MISSING,,
+SALE-00215,,17/02/2026,Alo Top - White,DW-CAS-0103,,,2.0,"₦37,200",Cash,STF-02,daily_sales.csv,215,Unprocessed,SKU_MATCHED,PRD-0103,DW-CAS-0103
+SALE-00216,TX-00069,06/13/26,slim fit tee,DW-CAS-0154,Navy,12.0,2.0,34200,POS,STAFF A,daily_sales.csv,216,Unprocessed,SKU_MATCHED,PRD-0154,DW-CAS-0154
+SALE-00217,TX-00139,22-Apr-2026,strapless bra,,,,2.0,49400(x2),POS,STF-02,sales_book_export.xlsx,217,Unprocessed,SKU_MISSING,,
+SALE-00218,TX-00614,03/04/2026,the usual top,,Pink,,1.0,25900,Transfer,STAFF A,daily_sales.csv,218,Unprocessed,SKU_MISSING,,
+SALE-00219,TX-00167,06/25/26,heart print t-shirt,DW-CAS-0162,Pink,,2.0,15000,Cash,STF-02,sales_book_export.xlsx,219,Unprocessed,SKU_MATCHED,PRD-0162,DW-CAS-0162
+SALE-00220,TX-00018,2026-02-26,High-Waist Leggings,,,,2.0,42400,Card,STF-03,daily_sales.csv,220,Unprocessed,SKU_MISSING,,
+SALE-00221,TX-00146,05/02/2026,pink one,DW-UNKNOWN-9999,Pink,,2.0,14200,Transfer,STF-03,sales_book_export.xlsx,221,Unprocessed,SKU_NOT_FOUND,,
+SALE-00222,TX-00260,2026-02-03,Strapless Bra,DW-LIN-0108,,,4.0,80400,Cash,STF-01,daily_sales.csv,222,Unprocessed,SKU_MATCHED,PRD-0108,DW-LIN-0108
+SALE-00223,TX-00357,25-Jan-2026,black bra,DW-UNKNOWN-9999,,,2.0,59000,POS,STF-02,manual_entry.xlsx,223,Unprocessed,SKU_NOT_FOUND,,
+SALE-00224,TX-00517,2026-05-10,Oversized Lounge Top,DW-LOU-0124,Grey,,1.0,27700,Card,STF-03,manual_entry.xlsx,224,Unprocessed,SKU_MATCHED,PRD-0124,DW-LOU-0124
+SALE-00225,TX-00533,2026-04-23,matching top and skirt set,,Red,12.0,1.0,"₦27,700",Transfer,,daily_sales.csv,225,Unprocessed,SKU_MISSING,,
+SALE-00226,TX-00298,23/05/2026,Quick-Dry Yoga Top - White,DW-ACT-0148,White,12.0,2.0,"₦33,800",Card,STF-02,sales_book_export.xlsx,226,Unprocessed,SKU_MATCHED,PRD-0148,DW-ACT-0148
+SALE-00227,TX-00173,2026-06-23,Sleep Robe Set - Green,,Green,12.0,1.0,27100,Cash,STF-03,sales_book_export.xlsx,227,Unprocessed,SKU_MISSING,,
+SALE-00228,TX-00410,21-Feb-2026,that pink set,,Pink,,1.0,11300,POS,,manual_entry.xlsx,228,Unprocessed,SKU_MISSING,,
+SALE-00229,TX-00028,2026-05-05,Seamless Brief - Lilac,DW-LIN-0208,Lilac,12.0,1.0,4200,Transfer,,manual_entry.xlsx,229,Unprocessed,SKU_MATCHED,PRD-0208,DW-LIN-0208
+SALE-00230,TX-00554,09-Feb-2026,Lace Butterfly Pajama Set,,,,1.0,32300,Cash,STF-01,daily_sales.csv,230,Unprocessed,SKU_MISSING,,
+SALE-00231,TX-00138,09/04/2026,ladies set,,,,,19700,POS,,daily_sales.csv,231,Unprocessed,SKU_MISSING,,
+SALE-00232,TX-00292,26-May-2026,Bodycon Dress,,,,1.0,13400(x1),POS,STF-01,sales_book_export.xlsx,232,Unprocessed,SKU_MISSING,,
+SALE-00233,,02-Feb-2026,Lace Trim Bra,,Beige,12.0,2.0,"₦36,000",Transfer,STF-02,sales_book_export.xlsx,233,Unprocessed,SKU_MISSING,,
+SALE-00234,,01-Jun-2026,wireless bra,DW-LIN-0160,Lilac,,,3200,Card,STAFF A,sales_book_export.xlsx,234,Unprocessed,SKU_MATCHED,PRD-0160,DW-LIN-0160
+SALE-00235,TX-00307,07-Apr-2026,Quick-Dry Yoga Top,,Black,12.0,1.0,"₦18,800",POS,,sales_book_export.xlsx,235,Unprocessed,SKU_MISSING,,
+SALE-00236,TX-00581,12-Jun-2026,Cropped Casual Top,,Green,12.0,2.0,48200,Card,,sales_book_export.xlsx,236,Unprocessed,SKU_MISSING,,
+SALE-00237,TX-00529,20/01/2026,alo top,DW-CAS-0178,Pink,12.0,1.0,"₦9,000",Transfer,STAFF A,daily_sales.csv,237,Unprocessed,SKU_MATCHED,PRD-0178,DW-CAS-0178
+SALE-00238,TX-00308,19/06/2026,floral midi dress,,,,3.0,56700,Card,,daily_sales.csv,238,Unprocessed,SKU_MISSING,,
+SALE-00239,TX-00318,2026-06-12,soft knit co-ord,,White,12.0,1.0,"₦28,100",Card,,manual_entry.xlsx,239,Unprocessed,SKU_MISSING,,
+SALE-00240,TX-00498,2026-04-19,Cotton Nightdress Navy 12,DW-NIG-0224,Navy,,1.0,"₦13,300",Cash,STF-01,sales_book_export.xlsx,240,Unprocessed,SKU_MATCHED,PRD-0224,DW-NIG-0224
+SALE-00241,TX-00585,04/06/2026,High-Waist Leggings - Grey,,Grey,,1.0,"₦29,900",Cash,STAFF A,manual_entry.xlsx,241,Unprocessed,SKU_MISSING,,
+SALE-00242,TX-00224,15/05/2026,black bra,DW-UNKNOWN-9999,,,1.0,25100,Transfer,STF-01,sales_book_export.xlsx,242,Unprocessed,SKU_NOT_FOUND,,
+SALE-00243,TX-00149,12/03/2026,Floral Midi Dress,DW-DRE-0110,Navy,,1.0,"₦18,900",POS,,manual_entry.xlsx,243,Unprocessed,SKU_MATCHED,PRD-0110,DW-DRE-0110
+SALE-00244,TX-00394,20/03/2026,pink one,,Black,,1.0,11400,POS,STF-03,manual_entry.xlsx,244,Unprocessed,SKU_MISSING,,
+SALE-00245,TX-00165,17/05/2026,ladies set,,Pink,,2.0,44000,Card,STF-03,manual_entry.xlsx,245,Unprocessed,SKU_MISSING,,
+SALE-00246,TX-00519,09/01/2026,Camisole Dress - Beige,DW-DRE-0209,Beige,,1.0,"₦24,500",Cash,STF-03,daily_sales.csv,246,Unprocessed,SKU_MATCHED,PRD-0209,DW-DRE-0209
+SALE-00247,TX-00114,25-Mar-2026,Lace Brief,DW-CAS-0103,Black,12.0,1.0,5300,Transfer,STF-02,manual_entry.xlsx,247,Unprocessed,SKU_MATCHED,PRD-0103,DW-CAS-0103
+SALE-00248,TX-00403,06/02/26,lace trim bra,,,12.0,2.0,65000,Card,STAFF A,sales_book_export.xlsx,248,Unprocessed,SKU_MISSING,,
+SALE-00249,TX-00377,06-Jan-2026,Slim Fit Tee,,White,,3.0,19200,Transfer,STAFF A,sales_book_export.xlsx,249,Unprocessed,SKU_MISSING,,
+SALE-00250,TX-00507,15-May-2026,ladies set,DW-UNKNOWN-9999,Pink,,,4900,Card,STF-02,daily_sales.csv,250,Unprocessed,SKU_NOT_FOUND,,
+SALE-00251,TX-00470,03/06/2026,Shorts Set,,,,1.0,8600,Cash,STF-01,daily_sales.csv,251,Unprocessed,SKU_MISSING,,
+SALE-00252,TX-00241,2026-03-24,Cropped Casual Top Green 12,,Green,,3.0,"₦84,300",Card,STF-03,manual_entry.xlsx,252,Unprocessed,SKU_MISSING,,
+SALE-00253,TX-00136,02-Jan-2026,lace trim bra,,,12.0,1.0,18000(x1),Cash,STF-03,manual_entry.xlsx,253,Unprocessed,SKU_MISSING,,
+SALE-00254,TX-00270,21-Apr-2026,Alo Top,,Blue,,1.0,"₦17,400",POS,STAFF A,daily_sales.csv,254,Unprocessed,SKU_MISSING,,
+SALE-00255,,12/02/2026,same as last time,,Black,,1.0,13300,Transfer,STF-01,daily_sales.csv,255,Unprocessed,SKU_MISSING,,
+SALE-00256,TX-00096,11/02/2026,Lace Brief - Blue,DW-LIN-0134,Blue,12.0,2.0,"₦27,400",Transfer,STF-03,sales_book_export.xlsx,256,Unprocessed,SKU_MATCHED,PRD-0134,DW-LIN-0134
+SALE-00257,TX-00337,05/11/26,Two-Piece Casual Set Green 12,,,12.0,2.0,22800,Cash,STF-03,manual_entry.xlsx,257,Unprocessed,SKU_MISSING,,
+SALE-00258,TX-00006,11-Apr-2026,that pink set,,,,,22000,POS,STF-01,manual_entry.xlsx,258,Unprocessed,SKU_MISSING,,
+SALE-00259,TX-00561,2026-03-25,same as last time,DW-UNKNOWN-9999,,,3.0,23100(x2),Card,STF-01,daily_sales.csv,259,Unprocessed,SKU_NOT_FOUND,,
+SALE-00260,TX-00318,02/15/26,quick-dry yoga top,DW-ACT-0131,,12.0,1.0,25200,Transfer,STF-03,manual_entry.xlsx,260,Unprocessed,SKU_MATCHED,PRD-0131,DW-ACT-0131
+SALE-00261,TX-00096,04/05/26,Lace Trim Bra - Green,DW-LIN-0050,Green,12.0,1.0,"₦24,500",Cash,STAFF A,daily_sales.csv,261,Unprocessed,SKU_MATCHED,PRD-0050,DW-LIN-0050
+SALE-00262,TX-00308,23/06/2026,Women Slim Fit Solid 3-Piece Suit,,,,1.0,6700,Transfer,STAFF A,daily_sales.csv,262,Unprocessed,SKU_MISSING,,
+SALE-00263,TX-00600,26-May-2026,Oversized Lounge Top,DW-LOU-0152,White,12.0,1.0,"₦7,300",Cash,STAFF A,sales_book_export.xlsx,263,Unprocessed,SKU_MATCHED,PRD-0152,DW-LOU-0152
+SALE-00264,TX-00081,19/06/2026,ribbed lounge set,DW-LOU-0059,,,1.0,10700,POS,STF-01,daily_sales.csv,264,Unprocessed,SKU_MATCHED,PRD-0059,DW-LOU-0059
+SALE-00265,TX-00405,05-Jan-2026,Women Slim Fit Solid 3-Piece Suit Lilac 12,,Lilac,12.0,1.0,"₦21,400",POS,STF-01,sales_book_export.xlsx,265,Unprocessed,SKU_MISSING,,
+SALE-00266,TX-00475,04/01/2026,Shorts Set,,,12.0,1.0,20600,Transfer,,daily_sales.csv,266,Unprocessed,SKU_MISSING,,
+SALE-00267,,01/30/26,Cotton Nightdress - Navy,,Navy,,1.0,11700,Cash,STF-01,manual_entry.xlsx,267,Unprocessed,SKU_MISSING,,
+SALE-00268,TX-00324,2026-04-17,Lingerie Set,,,12.0,2.0,38600,Cash,STF-03,manual_entry.xlsx,268,Unprocessed,SKU_MISSING,,
+SALE-00269,TX-00480,02-May-2026,Bodycon Dress,,,12.0,1.0,5900,Transfer,STF-03,manual_entry.xlsx,269,Unprocessed,SKU_MISSING,,
+SALE-00270,TX-00504,17/04/2026,Relaxed Lounge Pants,,,,2.0,39000,Cash,,daily_sales.csv,270,Unprocessed,SKU_MISSING,,
+SALE-00271,TX-00346,2026-03-02,High-Waist Leggings,DW-ACT-0156,Beige,12.0,1.0,11800,Card,STF-01,manual_entry.xlsx,271,Unprocessed,SKU_MATCHED,PRD-0156,DW-ACT-0156
+SALE-00272,TX-00449,2026-01-31,seamless brief,,,,1.0,"₦24,700",Card,STF-01,sales_book_export.xlsx,272,Unprocessed,SKU_MISSING,,
+SALE-00273,TX-00102,05/24/26,Lingerie Set,,,12.0,1.0,"₦22,000",Transfer,STF-03,daily_sales.csv,273,Unprocessed,SKU_MISSING,,
+SALE-00274,TX-00425,2026-02-01,Matching Top and Skirt Set - Grey,,Grey,,2.0,"₦55,400",POS,STF-02,sales_book_export.xlsx,274,Unprocessed,SKU_MISSING,,
+SALE-00275,TX-00530,2026-04-18,Alo Top - Blue,DW-CAS-0272,Blue,12.0,2.0,"₦34,800",Cash,STF-01,daily_sales.csv,275,Unprocessed,SKU_MATCHED,PRD-0272,DW-CAS-0272
+SALE-00276,TX-00567,13-Apr-2026,Heart Print T-Shirt,DW-CAS-0162,Pink,,4.0,30000,POS,STF-03,daily_sales.csv,276,Unprocessed,SKU_MATCHED,PRD-0162,DW-CAS-0162
+SALE-00277,TX-00309,03/13/26,Lace Butterfly Pajama Set,,,12.0,3.0,33600,Cash,STF-01,manual_entry.xlsx,277,Unprocessed,SKU_MISSING,,
+SALE-00278,TX-00553,2026-04-10,Lace Butterfly Pajama Set,,,12.0,2.0,41200,POS,STF-02,daily_sales.csv,278,Unprocessed,SKU_MISSING,,
+SALE-00279,TX-00242,2026-05-10,sleep robe set,DW-NIG-0217,Blue,12.0,1.0,20900,Transfer,STF-03,daily_sales.csv,279,Unprocessed,SKU_MATCHED,PRD-0217,DW-NIG-0217
+SALE-00280,TX-00436,2026-06-20,Camisole Dress,DW-DRE-0146,,,2.0,34000,Card,STF-01,sales_book_export.xlsx,280,Unprocessed,SKU_MATCHED,PRD-0146,DW-DRE-0146
+SALE-00281,TX-00502,04/19/26,Satin Nightgown - Beige,DW-NIG-0032,Beige,12.0,2.0,"₦38,800",Card,STF-02,sales_book_export.xlsx,281,Unprocessed,SKU_MATCHED,PRD-0032,DW-NIG-0032
+SALE-00282,TX-00419,2026-02-02,Strapless Bra,,Lilac,12.0,1.0,10100,Cash,STF-01,daily_sales.csv,282,Unprocessed,SKU_MISSING,,
+SALE-00283,,03/16/26,straight-leg jeans,DW-TRO-0293,Navy,12.0,1.0,15400,POS,STF-03,sales_book_export.xlsx,283,Unprocessed,SKU_MATCHED,PRD-0293,DW-TRO-0293
+SALE-00284,TX-00136,05/06/26,Alo Top,,Red,12.0,1.0,"₦23,700",Transfer,STAFF A,manual_entry.xlsx,284,Unprocessed,SKU_MISSING,,
+SALE-00285,TX-00454,2026-04-26,ladies baggy jeans,DW-TRO-0236,Green,12.0,1.0,"₦22,900",POS,STF-01,sales_book_export.xlsx,285,Unprocessed,SKU_MATCHED,PRD-0236,DW-TRO-0236
+SALE-00286,TX-00020,05/27/26,cotton nightdress,,Green,,1.0,10800,Cash,STAFF A,sales_book_export.xlsx,286,Unprocessed,SKU_MISSING,,
+SALE-00287,TX-00425,12-Mar-2026,Alo Top - Pink,DW-CAS-0010,Pink,12.0,2.0,22400,Cash,STAFF A,daily_sales.csv,287,Unprocessed,SKU_MATCHED,PRD-0010,DW-CAS-0010
+SALE-00288,TX-00061,03/07/26,pink one,,Pink,,1.0,29500,POS,STF-02,sales_book_export.xlsx,288,Unprocessed,SKU_MISSING,,
+SALE-00289,TX-00517,18/03/2026,Oversized Lounge Top - Black,,Black,,1.0,32400,Card,STF-01,daily_sales.csv,289,Unprocessed,SKU_MISSING,,
+SALE-00290,TX-00569,2026-03-23,Satin Nightgown - Beige,DW-NIG-0032,Beige,,1.0,19400,Transfer,STF-03,manual_entry.xlsx,290,Unprocessed,SKU_MATCHED,PRD-0032,DW-NIG-0032
+SALE-00291,,2026-04-25,Camisole Dress,,Beige,,1.0,24500,Card,STAFF A,daily_sales.csv,291,Unprocessed,SKU_MISSING,,
+SALE-00292,,01-Jan-2026,the usual top,DW-UNKNOWN-9999,Pink,,1.0,15400,Cash,STF-03,sales_book_export.xlsx,292,Unprocessed,SKU_NOT_FOUND,,
+SALE-00293,TX-00464,28-Jun-2026,ribbed tank top,,Red,12.0,1.0,"₦6,800",POS,STF-02,manual_entry.xlsx,293,Unprocessed,SKU_MISSING,,
+SALE-00294,TX-00424,2026-03-29,the usual top,,Black,,1.0,8400,Card,,manual_entry.xlsx,294,Unprocessed,SKU_MISSING,,
+SALE-00295,TX-00380,2026-06-16,Sports Bra - Green,,Green,,1.0,"₦7,400",Transfer,,sales_book_export.xlsx,295,Unprocessed,SKU_MISSING,,
+SALE-00296,TX-00215,2026-01-06,Two-Piece Casual Set,,Pink,,2.0,10600,Cash,STF-02,manual_entry.xlsx,296,Unprocessed,SKU_MISSING,,
+SALE-00297,TX-00584,2026-01-29,Ribbed Tank Top - Red,DW-CAS-0203,Red,,2.0,13600,Transfer,STAFF A,manual_entry.xlsx,297,Unprocessed,SKU_MATCHED,PRD-0203,DW-CAS-0203
+SALE-00298,TX-00331,2026-02-19,sleep robe set,,,12.0,2.0,"₦53,200",Card,,daily_sales.csv,298,Unprocessed,SKU_MISSING,,
+SALE-00299,TX-00084,06/24/26,Ribbed Tank Top,,Navy,12.0,1.0,"₦22,000",Cash,STF-02,manual_entry.xlsx,299,Unprocessed,SKU_MISSING,,
+SALE-00300,TX-00254,20-Jan-2026,sleep robe set,DW-NIG-0217,Blue,12.0,3.0,"₦62,700",Cash,,sales_book_export.xlsx,300,Unprocessed,SKU_MATCHED,PRD-0217,DW-NIG-0217
+SALE-00301,TX-00035,2026-01-14,Quick-Dry Yoga Top Red 12,,,12.0,2.0,15800,Card,STF-03,manual_entry.xlsx,301,Unprocessed,SKU_MISSING,,
+SALE-00302,TX-00614,02/02/26,Lingerie Set,,,12.0,1.0,20400,Cash,,daily_sales.csv,302,Unprocessed,SKU_MISSING,,
+SALE-00303,TX-00199,2026-04-20,women slim fit solid 3-piece suit,,,12.0,2.0,13400,Transfer,STAFF A,daily_sales.csv,303,Unprocessed,SKU_MISSING,,
+SALE-00304,TX-00317,18/04/2026,Ribbed Lounge Set,,,12.0,1.0,8500,POS,STF-03,daily_sales.csv,304,Unprocessed,SKU_MISSING,,
+SALE-00305,TX-00488,2026-05-13,Lace Butterfly Pajama Set,,,,,11200,Card,STAFF A,manual_entry.xlsx,305,Unprocessed,SKU_MISSING,,
+SALE-00306,TX-00478,29/05/2026,camisole dress,DW-DRE-0170,Beige,12.0,1.0,23600,Transfer,STF-02,daily_sales.csv,306,Unprocessed,SKU_MATCHED,PRD-0170,DW-DRE-0170
+SALE-00307,,07-Apr-2026,Camisole Dress,DW-DRE-0170,Beige,12.0,1.0,23600,Cash,STF-02,sales_book_export.xlsx,307,Unprocessed,SKU_MATCHED,PRD-0170,DW-DRE-0170
+SALE-00308,,2026-02-14,Camisole Dress Blue 12,DW-DRE-0146,Blue,12.0,1.0,17000,Transfer,,manual_entry.xlsx,308,Unprocessed,SKU_MATCHED,PRD-0146,DW-DRE-0146
+SALE-00309,TX-00134,28/03/2026,Bodycon Dress Red 12,DW-DRE-0057,Red,12.0,3.0,"₦40,200",Transfer,STF-02,manual_entry.xlsx,309,Unprocessed,SKU_MATCHED,PRD-0057,DW-DRE-0057
+SALE-00310,TX-00521,27-Jun-2026,Slim Fit Tee,,Beige,,1.0,14200,Card,STF-02,manual_entry.xlsx,310,Unprocessed,SKU_MISSING,,
+SALE-00311,TX-00507,05/01/26,Sports Bra,,,,2.0,14800,Card,STF-03,manual_entry.xlsx,311,Unprocessed,SKU_MISSING,,
+SALE-00312,TX-00087,13-Jun-2026,Slim Fit Tee,,,,3.0,8700,Transfer,STF-01,daily_sales.csv,312,Unprocessed,SKU_MISSING,,
+SALE-00313,TX-00272,13/05/2026,ladies baggy jeans,,Navy,,1.0,31600,Cash,STF-03,sales_book_export.xlsx,313,Unprocessed,SKU_MISSING,,
+SALE-00314,TX-00619,09-May-2026,two-piece casual set,,Black,12.0,,4900,Transfer,STAFF A,daily_sales.csv,314,Unprocessed,SKU_MISSING,,
+SALE-00315,TX-00234,18/03/2026,Lace Butterfly Pajama Set - Black,,,,1.0,11200,Transfer,STF-02,daily_sales.csv,315,Unprocessed,SKU_MISSING,,
+SALE-00316,TX-00461,05/13/26,Jogger Pants - Grey,,Grey,,1.0,"₦22,600",Cash,STF-03,sales_book_export.xlsx,316,Unprocessed,SKU_MISSING,,
+SALE-00317,TX-00024,02-Feb-2026,shirt dress,,,12.0,1.0,26800,Cash,STF-02,sales_book_export.xlsx,317,Unprocessed,SKU_MISSING,,
+SALE-00318,TX-00312,05/26/26,Camisole Dress,,,,1.0,23600(x1),Cash,STF-02,sales_book_export.xlsx,318,Unprocessed,SKU_MISSING,,
+SALE-00319,TX-00012,2026-02-15,women's activewear set,DW-ACT-0284,White,,1.0,4400,Transfer,STF-03,daily_sales.csv,319,Unprocessed,SKU_MATCHED,PRD-0284,DW-ACT-0284
+SALE-00320,TX-00487,02/10/26,Matching Top and Skirt Set - Beige,DW-SET-0201,Beige,,4.0,16800,Transfer,STAFF A,manual_entry.xlsx,320,Unprocessed,SKU_MATCHED,PRD-0201,DW-SET-0201
+SALE-00321,TX-00590,05/31/26,sports bra,,White,12.0,,18300,Cash,STF-01,daily_sales.csv,321,Unprocessed,SKU_MISSING,,
+SALE-00322,TX-00098,30/03/2026,slim fit tee,,,,2.0,43000,Card,STF-01,sales_book_export.xlsx,322,Unprocessed,SKU_MISSING,,
+SALE-00323,TX-00079,2026-03-12,Quick-Dry Yoga Top,,,12.0,2.0,"₦51,200",Cash,STAFF A,daily_sales.csv,323,Unprocessed,SKU_MISSING,,
+SALE-00324,TX-00011,26/04/2026,Lace Butterfly Pajama Set,DW-NIG-0210,Lilac,12.0,1.0,"₦13,700",POS,STF-01,manual_entry.xlsx,324,Unprocessed,SKU_MATCHED,PRD-0210,DW-NIG-0210
+SALE-00325,TX-00019,25/03/2026,Shorts Set - Pink,DW-SET-0070,Pink,12.0,1.0,"₦20,600",Cash,STF-02,daily_sales.csv,325,Unprocessed,SKU_MATCHED,PRD-0070,DW-SET-0070
+SALE-00326,TX-00049,17/05/2026,Floral Midi Dress,,Black,12.0,2.0,22800,Cash,,manual_entry.xlsx,326,Unprocessed,SKU_MISSING,,
+SALE-00327,TX-00346,2026-04-24,Cropped Casual Top - Lilac,,,12.0,1.0,12500,Transfer,STF-01,sales_book_export.xlsx,327,Unprocessed,SKU_MISSING,,
+SALE-00328,TX-00124,06/20/26,Lace Trim Bra - Green,DW-LIN-0050,,12.0,1.0,24500,Transfer,STF-02,sales_book_export.xlsx,328,Unprocessed,SKU_MATCHED,PRD-0050,DW-LIN-0050
+SALE-00329,TX-00421,2026-03-24,sports bra,DW-ACT-0183,Blue,12.0,1.0,"₦23,900",POS,STAFF A,daily_sales.csv,329,Unprocessed,SKU_MATCHED,PRD-0183,DW-ACT-0183
+SALE-00330,TX-00326,18/05/2026,pink one,,Pink,,2.0,44000,Card,STF-01,daily_sales.csv,330,Unprocessed,SKU_MISSING,,
+SALE-00331,TX-00439,05-Jun-2026,Alo Top Pink 12,DW-CAS-0010,Pink,12.0,3.0,33600,Transfer,STAFF A,sales_book_export.xlsx,331,Unprocessed,SKU_MATCHED,PRD-0010,DW-CAS-0010
+SALE-00332,TX-00041,05-Feb-2026,Floral Midi Dress White 12,DW-DRE-0031,White,12.0,1.0,"₦11,100",Card,STF-03,sales_book_export.xlsx,332,Unprocessed,SKU_MATCHED,PRD-0031,DW-DRE-0031
+SALE-00333,TX-00007,26-Mar-2026,Cropped Casual Top,,White,12.0,1.0,7600,Cash,,sales_book_export.xlsx,333,Unprocessed,SKU_MISSING,,
+SALE-00334,TX-00203,01/14/26,Lace Brief Navy 12,DW-LIN-0099,Navy,12.0,1.0,20900,Transfer,,sales_book_export.xlsx,334,Unprocessed,SKU_MATCHED,PRD-0099,DW-LIN-0099
+SALE-00335,TX-00444,03/19/26,Men's Athletic Set Green 12,DW-ACT-0128,,12.0,1.0,"₦16,900",Transfer,,sales_book_export.xlsx,335,Unprocessed,SKU_MATCHED,PRD-0128,DW-ACT-0128
+SALE-00336,TX-00140,04/20/26,matching top and skirt set,,Red,,2.0,59000,Card,STF-02,sales_book_export.xlsx,336,Unprocessed,SKU_MISSING,,
+SALE-00337,TX-00040,2026-01-02,camisole pajama set,DW-NIG-0098,,,1.0,"₦29,600",Cash,,manual_entry.xlsx,337,Unprocessed,SKU_MATCHED,PRD-0098,DW-NIG-0098
+SALE-00338,TX-00253,02/19/26,same as last time,DW-UNKNOWN-9999,Pink,,2.0,35400,Transfer,,sales_book_export.xlsx,338,Unprocessed,SKU_NOT_FOUND,,
+SALE-00339,,11/06/2026,Strapless Bra Navy 12,DW-LIN-0186,Navy,12.0,2.0,"₦14,200",Cash,,daily_sales.csv,339,Unprocessed,SKU_MATCHED,PRD-0186,DW-LIN-0186
+SALE-00340,TX-00092,13-May-2026,black bra,,Pink,,3.0,22200,Cash,STAFF A,daily_sales.csv,340,Unprocessed,SKU_MISSING,,
+SALE-00341,TX-00296,03/10/26,ladies set,DW-UNKNOWN-9999,Pink,,,54600(x2),Card,STF-02,sales_book_export.xlsx,341,Unprocessed,SKU_NOT_FOUND,,
+SALE-00342,TX-00197,17/02/2026,Satin Nightgown Green 12,DW-NIG-0192,Green,12.0,2.0,61200,POS,,daily_sales.csv,342,Unprocessed,SKU_MATCHED,PRD-0192,DW-NIG-0192
+SALE-00343,,2026-06-12,Shorts Set - Pink,DW-SET-0056,Pink,12.0,1.0,6400,POS,STF-01,manual_entry.xlsx,343,Unprocessed,SKU_MATCHED,PRD-0056,DW-SET-0056
+SALE-00344,TX-00345,11-Jan-2026,Cropped Casual Top,DW-CAS-0299,Beige,,1.0,"₦25,700",POS,STF-03,daily_sales.csv,344,Unprocessed,SKU_MATCHED,PRD-0299,DW-CAS-0299
+SALE-00345,,03/04/2026,Lace Brief,,,,1.0,28100,Cash,STAFF A,daily_sales.csv,345,Unprocessed,SKU_MISSING,,
+SALE-00346,TX-00240,05-Apr-2026,men's athletic set,DW-TRO-0185,,12.0,1.0,16900,Card,,manual_entry.xlsx,346,Unprocessed,SKU_MATCHED,PRD-0185,DW-TRO-0185
+SALE-00347,TX-00586,31/03/2026,ladies set,DW-UNKNOWN-9999,Black,,1.0,7400,Cash,STF-02,daily_sales.csv,347,Unprocessed,SKU_NOT_FOUND,,
+SALE-00348,TX-00092,19/03/2026,same as last time,,,,2.0,23000,Cash,,manual_entry.xlsx,348,Unprocessed,SKU_MISSING,,
+SALE-00349,TX-00504,11/02/2026,Ribbed Tank Top - White,,White,12.0,3.0,"₦86,700",Cash,STF-03,sales_book_export.xlsx,349,Unprocessed,SKU_MISSING,,
+SALE-00350,TX-00115,2026-06-03,Lace Butterfly Pajama Set - Pink,,,,1.0,"₦17,400",Cash,STF-03,manual_entry.xlsx,350,Unprocessed,SKU_MISSING,,
+SALE-00351,TX-00328,01/30/26,ladies baggy jeans,,Lilac,12.0,1.0,8800,POS,STF-02,manual_entry.xlsx,351,Unprocessed,SKU_MISSING,,
+SALE-00352,TX-00036,28-Jan-2026,Two-Piece Casual Set - Pink,DW-SET-0114,,12.0,1.0,5300,POS,STF-03,manual_entry.xlsx,352,Unprocessed,SKU_MATCHED,PRD-0114,DW-SET-0114
+SALE-00353,TX-00054,12/03/2026,floral midi dress,,Black,12.0,4.0,45600(x4),Transfer,,manual_entry.xlsx,353,Unprocessed,SKU_MISSING,,
+SALE-00354,TX-00200,18-Mar-2026,Matching Top and Skirt Set,,,12.0,4.0,16800,Card,STF-01,sales_book_export.xlsx,354,Unprocessed,SKU_MISSING,,
+SALE-00355,TX-00201,29/05/2026,slim fit tee,DW-CAS-0166,Navy,12.0,2.0,"₦50,000",Cash,STF-03,manual_entry.xlsx,355,Unprocessed,SKU_MATCHED,PRD-0166,DW-CAS-0166
+SALE-00356,TX-00054,01/27/26,black bra,,Pink,,1.0,17400(x2),Cash,STAFF A,manual_entry.xlsx,356,Unprocessed,SKU_MISSING,,
+SALE-00357,TX-00092,06/01/26,High-Waist Leggings - Beige,DW-ACT-0174,Beige,12.0,1.0,"₦11,300",Card,,daily_sales.csv,357,Unprocessed,SKU_MATCHED,PRD-0174,DW-ACT-0174
+SALE-00358,TX-00097,04/05/26,Ladies Baggy Jeans,DW-TRO-0228,Navy,12.0,1.0,31600,Transfer,,daily_sales.csv,358,Unprocessed,SKU_MATCHED,PRD-0228,DW-TRO-0228
+SALE-00359,TX-00599,03/18/26,Lace Brief,,,12.0,1.0,"₦24,000",Cash,STF-02,manual_entry.xlsx,359,Unprocessed,SKU_MISSING,,
+SALE-00360,TX-00128,2026-02-16,Sports Bra,,,12.0,2.0,39400,POS,STF-03,manual_entry.xlsx,360,Unprocessed,SKU_MISSING,,
+SALE-00361,TX-00361,19-Apr-2026,Wireless Bra,,,,3.0,93900,Transfer,STF-01,manual_entry.xlsx,361,Unprocessed,SKU_MISSING,,
+SALE-00362,TX-00262,03/02/26,Soft Knit Co-ord Pink 12,,Pink,12.0,1.0,"₦28,700",POS,,manual_entry.xlsx,362,Unprocessed,SKU_MISSING,,
+SALE-00363,TX-00578,13/04/2026,sleepwear,,Black,,1.0,17700,Transfer,,sales_book_export.xlsx,363,Unprocessed,SKU_MISSING,,
+SALE-00364,TX-00342,2026-04-22,black bra,,Pink,,1.0,7500(x2),POS,STF-02,sales_book_export.xlsx,364,Unprocessed,SKU_MISSING,,
+SALE-00365,TX-00358,01/03/26,black bra,,,,1.0,26600(x2),POS,STAFF A,daily_sales.csv,365,Unprocessed,SKU_MISSING,,
+SALE-00366,TX-00131,01/13/26,ladies set,,Pink,,1.0,21400,POS,STF-01,manual_entry.xlsx,366,Unprocessed,SKU_MISSING,,
+SALE-00367,TX-00363,02/09/26,wireless bra,DW-LIN-0263,,,1.0,32800,Card,STAFF A,daily_sales.csv,367,Unprocessed,SKU_MATCHED,PRD-0263,DW-LIN-0263
+SALE-00368,TX-00170,20/04/2026,Ribbed Tank Top,,,,1.0,34000,Cash,STF-01,manual_entry.xlsx,368,Unprocessed,SKU_MISSING,,
+SALE-00369,TX-00548,2026-05-22,High-Waist Leggings,,,,3.0,80100,POS,STF-02,manual_entry.xlsx,369,Unprocessed,SKU_MISSING,,
+SALE-00370,TX-00175,06/25/26,Cotton Nightdress,,,,1.0,20500(x1),POS,STF-01,daily_sales.csv,370,Unprocessed,SKU_MISSING,,
+SALE-00371,TX-00528,19/05/2026,the usual top,,Pink,,2.0,33800,Cash,,manual_entry.xlsx,371,Unprocessed,SKU_MISSING,,
+SALE-00372,TX-00158,2026-01-15,ladies baggy jeans,,Blue,12.0,1.0,26700,Card,STF-01,daily_sales.csv,372,Unprocessed,SKU_MISSING,,
+SALE-00373,TX-00450,02/09/26,Lace Butterfly Bra - Black,DW-LIN-0004,Black,12.0,2.0,44000,Transfer,STF-02,daily_sales.csv,373,Unprocessed,SKU_MATCHED,PRD-0004,DW-LIN-0004
+SALE-00374,TX-00204,2026-01-02,black bra,,,,1.0,24000(x2),Card,STF-03,sales_book_export.xlsx,374,Unprocessed,SKU_MISSING,,
+SALE-00375,TX-00353,2026-05-06,Quick-Dry Yoga Top,DW-ACT-0216,,,1.0,33200,Cash,STF-02,sales_book_export.xlsx,375,Unprocessed,SKU_MATCHED,PRD-0216,DW-ACT-0216
+SALE-00376,TX-00254,20-Apr-2026,lingerie set,,Lilac,12.0,3.0,36300,Card,STF-02,daily_sales.csv,376,Unprocessed,SKU_MISSING,,
+SALE-00377,TX-00205,29/06/2026,Lingerie Set,,,,2.0,44000,Cash,STF-01,daily_sales.csv,377,Unprocessed,SKU_MISSING,,
+SALE-00378,TX-00253,15-May-2026,Camisole Dress,,,12.0,1.0,24500(x1),POS,STF-01,sales_book_export.xlsx,378,Unprocessed,SKU_MISSING,,
+SALE-00379,TX-00566,2026-01-01,Ribbed Tank Top,,Navy,,1.0,14100,Transfer,STF-03,daily_sales.csv,379,Unprocessed,SKU_MISSING,,
+SALE-00380,TX-00196,2026-05-31,strapless bra,DW-LIN-0186,Navy,,1.0,7100,Transfer,,sales_book_export.xlsx,380,Unprocessed,SKU_MATCHED,PRD-0186,DW-LIN-0186
+SALE-00381,TX-00574,20-May-2026,Ladies Baggy Jeans - Black,,Black,,1.0,15400,POS,STF-03,daily_sales.csv,381,Unprocessed,SKU_MISSING,,
+SALE-00382,TX-00408,22/04/2026,Sports Bra,DW-ACT-0061,Red,,1.0,"₦19,700",Card,STAFF A,manual_entry.xlsx,382,Unprocessed,SKU_MATCHED,PRD-0061,DW-ACT-0061
+SALE-00383,TX-00526,2026-02-12,Ladies Baggy Jeans - Black,DW-TRO-0039,Black,12.0,1.0,15400,Card,STAFF A,manual_entry.xlsx,383,Unprocessed,SKU_MATCHED,PRD-0039,DW-TRO-0039
+SALE-00384,TX-00277,08-Mar-2026,lace butterfly pajama set,,Pink,12.0,1.0,18000,Cash,STF-02,sales_book_export.xlsx,384,Unprocessed,SKU_MISSING,,
+SALE-00385,TX-00059,30-Jan-2026,women slim fit solid 3-piece suit,DW-SET-0274,,,1.0,"₦21,400",Cash,STF-03,sales_book_export.xlsx,385,Unprocessed,SKU_MATCHED,PRD-0274,DW-SET-0274
+SALE-00386,TX-00226,15/02/2026,Sports Bra,,Navy,,1.0,"₦27,200",POS,STF-03,sales_book_export.xlsx,386,Unprocessed,SKU_MISSING,,
+SALE-00387,TX-00503,11/06/2026,Men's Athletic Set,,,,2.0,50200,Transfer,STF-03,sales_book_export.xlsx,387,Unprocessed,SKU_MISSING,,
+SALE-00388,TX-00387,2026-02-11,Sports Bra,,White,12.0,2.0,36600,Card,STF-01,sales_book_export.xlsx,388,Unprocessed,SKU_MISSING,,
+SALE-00389,TX-00088,14-Jun-2026,Quick-Dry Yoga Top,DW-ACT-0007,,12.0,3.0,17100,Transfer,STF-02,daily_sales.csv,389,Unprocessed,SKU_MATCHED,PRD-0007,DW-ACT-0007
+SALE-00390,TX-00426,24-Apr-2026,Cotton Nightdress - Blue,DW-LOU-0023,Blue,12.0,2.0,42400,Transfer,STF-01,sales_book_export.xlsx,390,Unprocessed,SKU_MATCHED,PRD-0023,DW-LOU-0023
+SALE-00391,TX-00289,28/02/2026,cotton nightdress,DW-NIG-0013,,12.0,1.0,10800,POS,STF-01,manual_entry.xlsx,391,Unprocessed,SKU_MATCHED,PRD-0013,DW-NIG-0013
+SALE-00392,TX-00309,01/31/26,that pink set,,Black,,1.0,5300,POS,STF-03,sales_book_export.xlsx,392,Unprocessed,SKU_MISSING,,
+SALE-00393,TX-00400,08/05/2026,same as last time,DW-UNKNOWN-9999,,,1.0,32000,Card,,sales_book_export.xlsx,393,Unprocessed,SKU_NOT_FOUND,,
+SALE-00394,TX-00252,28-May-2026,Wide-Leg Trousers,DW-TRO-0058,,12.0,1.0,10300,Card,,manual_entry.xlsx,394,Unprocessed,SKU_MATCHED,PRD-0058,DW-TRO-0058
+SALE-00395,TX-00018,2026-05-18,Cropped Casual Top Green 12,DW-CAS-0255,Green,12.0,1.0,24100,POS,STAFF A,daily_sales.csv,395,Unprocessed,SKU_MATCHED,PRD-0255,DW-CAS-0255
+SALE-00396,TX-00121,2026-01-29,Cropped Casual Top Green 12,DW-CAS-0069,Green,,1.0,"₦28,100",Transfer,,manual_entry.xlsx,396,Unprocessed,SKU_MATCHED,PRD-0069,DW-CAS-0069
+SALE-00397,TX-00013,2026-06-28,Oversized Lounge Top,,Navy,,3.0,39600,Card,STF-02,sales_book_export.xlsx,397,Unprocessed,SKU_MISSING,,
+SALE-00398,TX-00178,2026-02-05,shirt dress,,,,2.0,35800(x2),Transfer,STF-01,daily_sales.csv,398,Unprocessed,SKU_MISSING,,
+SALE-00399,TX-00129,2026-06-24,sleep robe set,,Blue,12.0,3.0,"₦62,700",Transfer,,manual_entry.xlsx,399,Unprocessed,SKU_MISSING,,
+SALE-00400,TX-00200,26-Feb-2026,Lace Butterfly Pajama Set,,Red,,1.0,4900,POS,STF-01,sales_book_export.xlsx,400,Unprocessed,SKU_MISSING,,
+SALE-00401,TX-00088,2026-04-03,Jogger Pants,,Green,12.0,1.0,31000(x1),Cash,STAFF A,daily_sales.csv,401,Unprocessed,SKU_MISSING,,
+SALE-00402,TX-00100,13-Jan-2026,that pink set,,Pink,,1.0,18000,POS,,manual_entry.xlsx,402,Unprocessed,SKU_MISSING,,
+SALE-00403,TX-00238,2026-01-26,High-Waist Leggings,,,,1.0,21200,Transfer,STF-02,manual_entry.xlsx,403,Unprocessed,SKU_MISSING,,
+SALE-00404,TX-00077,05/09/26,Camisole Dress,,,,1.0,7100,Transfer,STAFF A,manual_entry.xlsx,404,Unprocessed,SKU_MISSING,,
+SALE-00405,TX-00166,25/01/2026,cropped casual top,DW-CAS-0255,,,2.0,48200,Cash,STF-03,manual_entry.xlsx,405,Unprocessed,SKU_MATCHED,PRD-0255,DW-CAS-0255
+SALE-00406,TX-00500,2026-04-01,Shorts Set - Navy,DW-SET-0187,Navy,12.0,1.0,"₦26,700",Cash,STF-03,daily_sales.csv,406,Unprocessed,SKU_MATCHED,PRD-0187,DW-SET-0187
+SALE-00407,TX-00270,04/15/26,black bra,,Pink,,2.0,5800,Cash,STAFF A,manual_entry.xlsx,407,Unprocessed,SKU_MISSING,,
+SALE-00408,TX-00358,03/04/26,Oversized Lounge Top Black 12,,Black,12.0,2.0,"₦64,800",Card,,manual_entry.xlsx,408,Unprocessed,SKU_MISSING,,
+SALE-00409,TX-00498,30-Apr-2026,Women Slim Fit Solid 3-Piece Suit,,,,1.0,21400,Transfer,,sales_book_export.xlsx,409,Unprocessed,SKU_MISSING,,
+SALE-00410,TX-00219,04/27/26,Cropped Casual Top - Beige,DW-CAS-0143,Beige,12.0,1.0,"₦28,700",Cash,STF-02,sales_book_export.xlsx,410,Unprocessed,SKU_MATCHED,PRD-0143,DW-CAS-0143
+SALE-00411,TX-00056,11-Mar-2026,Sleep Robe Set Blue 12,DW-NIG-0217,Blue,12.0,1.0,"₦20,900",Cash,,daily_sales.csv,411,Unprocessed,SKU_MATCHED,PRD-0217,DW-NIG-0217
+SALE-00412,TX-00575,02/12/26,ladies set,,Black,,1.0,16800(x2),Transfer,STF-01,manual_entry.xlsx,412,Unprocessed,SKU_MISSING,,
+SALE-00413,TX-00004,06/07/26,Lace Brief,,,12.0,1.0,17800,Card,STF-02,manual_entry.xlsx,413,Unprocessed,SKU_MISSING,,
+SALE-00414,TX-00591,13/06/2026,Camisole Pajama Set Green 12,,Green,12.0,3.0,110700,Cash,STF-03,daily_sales.csv,414,Unprocessed,SKU_MISSING,,
+SALE-00415,TX-00344,03/19/26,Quick-Dry Yoga Top,,Grey,12.0,2.0,"₦45,400",Cash,STF-02,daily_sales.csv,415,Unprocessed,SKU_MISSING,,
+SALE-00416,TX-00017,2026-04-06,Men's Athletic Set,,Lilac,,1.0,26300,Card,STF-01,daily_sales.csv,416,Unprocessed,SKU_MISSING,,
+SALE-00417,TX-00360,01/26/26,Ribbed Tank Top,,,12.0,1.0,"₦15,400",Card,,manual_entry.xlsx,417,Unprocessed,SKU_MISSING,,
+SALE-00418,,01/02/26,Ribbed Tank Top,,,12.0,3.0,20400,Cash,STF-02,daily_sales.csv,418,Unprocessed,SKU_MISSING,,
+SALE-00419,TX-00400,06/03/26,Shirt Dress - Lilac,DW-DRE-0266,,12.0,1.0,"₦26,100",Transfer,,daily_sales.csv,419,Unprocessed,SKU_MATCHED,PRD-0266,DW-DRE-0266
+SALE-00420,TX-00096,10-Feb-2026,Quick-Dry Yoga Top Navy 12,DW-ACT-0265,Navy,,1.0,"₦22,400",Cash,,sales_book_export.xlsx,420,Unprocessed,SKU_MATCHED,PRD-0265,DW-ACT-0265
+SALE-00421,TX-00228,08/01/2026,Women's Activewear Set,,Green,,1.0,"₦24,500",POS,STF-02,manual_entry.xlsx,421,Unprocessed,SKU_MISSING,,
+SALE-00422,TX-00269,2026-04-07,seamless brief,DW-LIN-0126,Black,12.0,2.0,63200,Transfer,STF-01,sales_book_export.xlsx,422,Unprocessed,SKU_MATCHED,PRD-0126,DW-LIN-0126
+SALE-00423,TX-00462,03-Apr-2026,Lace Brief,DW-LIN-0254,Grey,12.0,3.0,15000,Transfer,STF-02,daily_sales.csv,423,Unprocessed,SKU_MATCHED,PRD-0254,DW-LIN-0254
+SALE-00424,TX-00031,2026-02-15,Lace Butterfly Pajama Set,DW-NIG-0006,Black,12.0,1.0,29500,Cash,STAFF A,manual_entry.xlsx,424,Unprocessed,SKU_MATCHED,PRD-0006,DW-NIG-0006
+SALE-00425,TX-00565,2026-02-25,Women's Activewear Set Green 12,DW-ACT-0079,Green,12.0,2.0,49000,POS,,manual_entry.xlsx,425,Unprocessed,SKU_MATCHED,PRD-0079,DW-ACT-0079
+SALE-00426,TX-00211,22-Apr-2026,Lace Brief Grey 12,DW-LIN-0254,Grey,,1.0,"₦5,000",Card,,daily_sales.csv,426,Unprocessed,SKU_MATCHED,PRD-0254,DW-LIN-0254
+SALE-00427,TX-00301,02-Jun-2026,Sleep Robe Set,DW-NIG-0217,,12.0,2.0,41800,POS,,sales_book_export.xlsx,427,Unprocessed,SKU_MATCHED,PRD-0217,DW-NIG-0217
+SALE-00428,TX-00012,2026-02-16,Ribbed Lounge Set Lilac 12,DW-LOU-0059,Lilac,12.0,2.0,"₦21,400",POS,STF-02,daily_sales.csv,428,Unprocessed,SKU_MATCHED,PRD-0059,DW-LOU-0059
+SALE-00429,TX-00432,2026-03-24,Lingerie Set - Black,DW-LIN-0291,Black,12.0,2.0,"₦46,400",Card,STF-03,daily_sales.csv,429,Unprocessed,SKU_MATCHED,PRD-0291,DW-LIN-0291
+SALE-00430,TX-00292,20/02/2026,Two-Piece Casual Set,,Blue,12.0,1.0,22500,Cash,STAFF A,sales_book_export.xlsx,430,Unprocessed,SKU_MISSING,,
+SALE-00431,TX-00282,03/14/26,that pink set,DW-UNKNOWN-9999,Black,,,28000,POS,STF-03,daily_sales.csv,431,Unprocessed,SKU_NOT_FOUND,,
+SALE-00432,,2026-05-23,Lingerie Set,DW-LIN-0041,Beige,12.0,2.0,40200,Cash,STF-01,sales_book_export.xlsx,432,Unprocessed,SKU_MATCHED,PRD-0041,DW-LIN-0041
+SALE-00433,TX-00045,24-Mar-2026,Satin Nightgown,DW-NIG-0054,Grey,,2.0,62800,Cash,STF-01,daily_sales.csv,433,Unprocessed,SKU_MATCHED,PRD-0054,DW-NIG-0054
+SALE-00434,TX-00126,03/09/26,ladies baggy jeans,,Black,12.0,1.0,15400,Transfer,STAFF A,daily_sales.csv,434,Unprocessed,SKU_MISSING,,
+SALE-00435,TX-00077,13/03/2026,Bodycon Dress,DW-DRE-0251,,,1.0,13300,Card,STF-01,sales_book_export.xlsx,435,Unprocessed,SKU_MATCHED,PRD-0251,DW-DRE-0251
+SALE-00436,TX-00517,06/21/26,Quick dry Yoga Top,,Pink,,1.0,5700,Cash,STF-02,sales_book_export.xlsx,436,Unprocessed,SKU_MISSING,,
+SALE-00437,TX-00110,2026-04-09,pink one,,Pink,,3.0,80100,Cash,STF-02,sales_book_export.xlsx,437,Unprocessed,SKU_MISSING,,
+SALE-00438,TX-00055,02/17/26,Ladies Baggy Jeans - Green,DW-TRO-0236,Green,12.0,1.0,"₦22,900",Card,STF-03,daily_sales.csv,438,Unprocessed,SKU_MATCHED,PRD-0236,DW-TRO-0236
+SALE-00439,TX-00225,13/01/2026,lace butterfly pajama set,,White,12.0,1.0,21400,Cash,STF-01,sales_book_export.xlsx,439,Unprocessed,SKU_MISSING,,
+SALE-00440,TX-00176,10-Mar-2026,lace butterfly pajama set,DW-NIG-0295,Pink,12.0,1.0,"₦17,400",Transfer,STF-03,manual_entry.xlsx,440,Unprocessed,SKU_MATCHED,PRD-0295,DW-NIG-0295
+SALE-00441,TX-00072,02/06/2026,Quick-Dry Yoga Top White 12,DW-ACT-0148,White,12.0,1.0,"₦16,900",Transfer,STF-02,daily_sales.csv,441,Unprocessed,SKU_MATCHED,PRD-0148,DW-ACT-0148
+SALE-00442,TX-00254,2026-02-06,slim fit tee,,Blue,12.0,,64500,Card,STF-01,sales_book_export.xlsx,442,Unprocessed,SKU_MISSING,,
+SALE-00443,TX-00360,26-May-2026,Quick-Dry Yoga Top Grey 12,DW-ACT-0009,Grey,12.0,2.0,45400,POS,,daily_sales.csv,443,Unprocessed,SKU_MATCHED,PRD-0009,DW-ACT-0009
+SALE-00444,TX-00421,2026-04-28,shorts set,,,,1.0,"₦26,700",Transfer,STF-02,daily_sales.csv,444,Unprocessed,SKU_MISSING,,
+SALE-00445,TX-00540,01/08/26,cropped casual top,,,12.0,1.0,24100,Transfer,STF-03,manual_entry.xlsx,445,Unprocessed,SKU_MISSING,,
+SALE-00446,TX-00356,03/26/26,relaxed lounge pants,DW-LOU-0179,Red,12.0,1.0,"₦28,900",POS,STF-01,sales_book_export.xlsx,446,Unprocessed,SKU_MATCHED,PRD-0179,DW-LOU-0179
+SALE-00447,,2026-06-25,Slim Fit Tee,DW-CAS-0021,,,1.0,26800,POS,STF-01,daily_sales.csv,447,Unprocessed,SKU_MATCHED,PRD-0021,DW-CAS-0021
+SALE-00448,TX-00202,19/06/2026,Satin Nightgown Black 12,DW-NIG-0181,Black,,2.0,75800,Card,STAFF A,sales_book_export.xlsx,448,Unprocessed,SKU_MATCHED,PRD-0181,DW-NIG-0181
+SALE-00449,TX-00178,26-Feb-2026,black bra,DW-UNKNOWN-9999,Black,,1.0,16900,Card,STF-03,manual_entry.xlsx,449,Unprocessed,SKU_NOT_FOUND,,
+SALE-00450,TX-00540,06/24/26,Jogger Pants - Beige,,Beige,12.0,2.0,"₦53,400",Card,STF-03,manual_entry.xlsx,450,Unprocessed,SKU_MISSING,,
+SALE-00451,TX-00595,30-Apr-2026,Lace Brief - Green,DW-LIN-0184,,12.0,1.0,"₦22,100",POS,STF-02,manual_entry.xlsx,451,Unprocessed,SKU_MATCHED,PRD-0184,DW-LIN-0184
+SALE-00452,TX-00110,25-May-2026,Ribbed Tank Top - Pink,DW-CAS-0279,Pink,12.0,2.0,"₦30,800",POS,STAFF A,sales_book_export.xlsx,452,Unprocessed,SKU_MATCHED,PRD-0279,DW-CAS-0279
+SALE-00453,TX-00159,05/25/26,Seamless Brief,DW-LIN-0149,Blue,12.0,1.0,16900,POS,STF-03,manual_entry.xlsx,453,Unprocessed,SKU_MATCHED,PRD-0149,DW-LIN-0149
+SALE-00454,TX-00455,2026-05-05,Lace Butterfly Bra,DW-LIN-0004,Black,12.0,1.0,22000,Card,STF-01,sales_book_export.xlsx,454,Unprocessed,SKU_MATCHED,PRD-0004,DW-LIN-0004
+SALE-00455,TX-00023,04/14/26,Slim Fit Tee Navy 12,,Navy,,1.0,"₦17,100",Transfer,STF-02,manual_entry.xlsx,455,Unprocessed,SKU_MISSING,,
+SALE-00456,TX-00436,2026-02-13,Oversized Lounge Top,,Grey,,1.0,27700,Transfer,STF-01,daily_sales.csv,456,Unprocessed,SKU_MISSING,,
+SALE-00457,TX-00470,31/01/2026,soft knit co-ord,DW-LOU-0235,Navy,12.0,1.0,"₦30,200",POS,STF-01,sales_book_export.xlsx,457,Unprocessed,SKU_MATCHED,PRD-0235,DW-LOU-0235
+SALE-00458,TX-00144,09-May-2026,lace brief,,Green,12.0,2.0,44200,POS,STF-03,daily_sales.csv,458,Unprocessed,SKU_MISSING,,
+SALE-00459,TX-00603,15/06/2026,pink one,DW-UNKNOWN-9999,,,1.0,23500,POS,STAFF A,manual_entry.xlsx,459,Unprocessed,SKU_NOT_FOUND,,
+SALE-00460,TX-00243,18/01/2026,black bra,,,,1.0,11800,Cash,STF-02,manual_entry.xlsx,460,Unprocessed,SKU_MISSING,,
+SALE-00461,TX-00461,18/04/2026,shorts set,DW-SET-0197,,12.0,3.0,"₦97,500",Card,STF-02,manual_entry.xlsx,461,Unprocessed,SKU_MATCHED,PRD-0197,DW-SET-0197
+SALE-00462,TX-00025,23/05/2026,Shorts Set - Grey,,Grey,,1.0,"₦18,000",Cash,STF-02,sales_book_export.xlsx,462,Unprocessed,SKU_MISSING,,
+SALE-00463,TX-00366,01/02/26,Jogger Pants,DW-TRO-0072,Beige,,1.0,"₦26,700",Transfer,STF-01,daily_sales.csv,463,Unprocessed,SKU_MATCHED,PRD-0072,DW-TRO-0072
+SALE-00464,,10-Jun-2026,Shirt Dress,DW-DRE-0219,Grey,12.0,1.0,"₦32,400",POS,STF-03,daily_sales.csv,464,Unprocessed,SKU_MATCHED,PRD-0219,DW-DRE-0219
+SALE-00465,TX-00270,2026-01-18,lace brief,DW-LIN-0184,Green,,2.0,"₦44,200",Cash,STF-01,daily_sales.csv,465,Unprocessed,SKU_MATCHED,PRD-0184,DW-LIN-0184
+SALE-00466,TX-00075,2026-03-08,that pink set,,,,1.0,33200,Cash,STF-03,sales_book_export.xlsx,466,Unprocessed,SKU_MISSING,,
+SALE-00467,TX-00311,03-Jun-2026,pink one,,,,2.0,11800(x2),Transfer,STF-01,sales_book_export.xlsx,467,Unprocessed,SKU_MISSING,,
+SALE-00468,TX-00438,20/02/2026,sleepwear,DW-UNKNOWN-9999,Black,,,13200,Transfer,STF-01,daily_sales.csv,468,Unprocessed,SKU_NOT_FOUND,,
+SALE-00469,TX-00016,2026-06-07,Sports Bra Red 12,DW-ACT-0061,,12.0,4.0,78800,Transfer,STF-01,sales_book_export.xlsx,469,Unprocessed,SKU_MATCHED,PRD-0061,DW-ACT-0061
+SALE-00470,TX-00079,2026-02-02,oversized lounge top,DW-LOU-0030,Black,12.0,1.0,"₦32,400",POS,STAFF A,sales_book_export.xlsx,470,Unprocessed,SKU_MATCHED,PRD-0030,DW-LOU-0030
+SALE-00471,TX-00555,02-Apr-2026,ladies set,DW-UNKNOWN-9999,Pink,,2.0,10000,Cash,STF-01,daily_sales.csv,471,Unprocessed,SKU_NOT_FOUND,,
+SALE-00472,,09/06/2026,Shirt Dress White 12,,White,12.0,1.0,6300,Transfer,,manual_entry.xlsx,472,Unprocessed,SKU_MISSING,,
+SALE-00473,TX-00230,01/30/26,cotton nightdress,,,,1.0,18100,Transfer,,sales_book_export.xlsx,473,Unprocessed,SKU_MISSING,,
+SALE-00474,TX-00350,17/05/2026,quick-dry yoga top,,,,1.0,"₦9,500",Card,,manual_entry.xlsx,474,Unprocessed,SKU_MISSING,,
+SALE-00475,TX-00479,28/01/2026,sleepwear,,Black,,1.0,32400,Transfer,STF-02,sales_book_export.xlsx,475,Unprocessed,SKU_MISSING,,
+SALE-00476,TX-00013,24-Jun-2026,Sports Bra Navy 12,,Navy,12.0,3.0,81600,Cash,STF-03,manual_entry.xlsx,476,Unprocessed,SKU_MISSING,,
+SALE-00477,,03/09/26,Women Slim Fit Solid 3-Piece Suit,DW-SET-0165,Green,,2.0,"₦16,800",Cash,STF-03,manual_entry.xlsx,477,Unprocessed,SKU_MATCHED,PRD-0165,DW-SET-0165
+SALE-00478,TX-00040,2026-03-22,slim fit tee,,Grey,,3.0,41700,Transfer,STAFF A,daily_sales.csv,478,Unprocessed,SKU_MISSING,,
+SALE-00479,TX-00080,23/03/2026,Lace Brief,,,,,17800,Card,STF-01,manual_entry.xlsx,479,Unprocessed,SKU_MISSING,,
+SALE-00480,TX-00384,02-Mar-2026,Jogger Pants - Green,DW-TRO-0040,Green,12.0,1.0,31000,Card,STF-03,manual_entry.xlsx,480,Unprocessed,SKU_MATCHED,PRD-0040,DW-TRO-0040
+SALE-00481,TX-00388,11-Feb-2026,Straight-Leg Jeans Blue 12,,Blue,12.0,1.0,"₦11,300",Cash,STF-02,daily_sales.csv,481,Unprocessed,SKU_MISSING,,
+SALE-00482,TX-00538,2026-01-20,pink one,DW-UNKNOWN-9999,Black,,3.0,60300,Card,STF-03,daily_sales.csv,482,Unprocessed,SKU_NOT_FOUND,,
+SALE-00483,TX-00420,28/05/2026,Lace Trim Bra Lilac 12,,,12.0,1.0,"₦6,800",POS,STF-01,daily_sales.csv,483,Unprocessed,SKU_MISSING,,
+SALE-00484,TX-00142,05/10/26,Lace Butterfly Pajama Set - Grey,,Grey,12.0,1.0,10800,POS,STF-03,daily_sales.csv,484,Unprocessed,SKU_MISSING,,
+SALE-00485,TX-00568,2026-01-31,High-Waist Leggings Grey 12,,Grey,,1.0,29900,Card,STF-01,sales_book_export.xlsx,485,Unprocessed,SKU_MISSING,,
+SALE-00486,TX-00122,21/04/2026,Men's Athletic Set,DW-ACT-0018,,,1.0,"₦27,000",POS,STF-03,manual_entry.xlsx,486,Unprocessed,SKU_MATCHED,PRD-0018,DW-ACT-0018
+SALE-00487,TX-00604,12/01/2026,ladies set,,Black,,1.0,6400,Cash,STF-02,sales_book_export.xlsx,487,Unprocessed,SKU_MISSING,,
+SALE-00488,TX-00538,2026-06-22,Wide-Leg Trousers - White,DW-TRO-0190,,12.0,1.0,18300,Card,STF-03,daily_sales.csv,488,Unprocessed,SKU_MATCHED,PRD-0190,DW-TRO-0190
+SALE-00489,TX-00170,2026-03-23,that pink set,DW-UNKNOWN-9999,Black,,2.0,65000,Cash,STF-03,daily_sales.csv,489,Unprocessed,SKU_NOT_FOUND,,
+SALE-00490,,23/04/2026,ladies baggy jeans,,,,1.0,"₦26,700",Cash,STAFF A,manual_entry.xlsx,490,Unprocessed,SKU_MISSING,,
+SALE-00491,TX-00443,2026-01-02,lace trim bra,,,,1.0,6800,Card,STF-03,sales_book_export.xlsx,491,Unprocessed,SKU_MISSING,,
+SALE-00492,TX-00526,13-Mar-2026,matching top and skirt set,,,12.0,2.0,55400,Cash,STF-03,sales_book_export.xlsx,492,Unprocessed,SKU_MISSING,,
+SALE-00493,TX-00272,26/01/2026,lingerie set,,,,3.0,57900,Card,STF-02,daily_sales.csv,493,Unprocessed,SKU_MISSING,,
+SALE-00494,TX-00040,08/05/2026,Lace Butterfly Pajama Set,,,,1.0,7200,Card,STF-03,manual_entry.xlsx,494,Unprocessed,SKU_MISSING,,
+SALE-00495,TX-00303,11-Jun-2026,sports bra,,,,1.0,18800,Cash,STF-02,sales_book_export.xlsx,495,Unprocessed,SKU_MISSING,,
+SALE-00496,TX-00496,18/04/2026,Quick-Dry Yoga Top - White,DW-ACT-0148,White,12.0,3.0,50700,Card,STAFF A,daily_sales.csv,496,Unprocessed,SKU_MATCHED,PRD-0148,DW-ACT-0148
+SALE-00497,TX-00056,01/08/26,Relaxed Lounge Pants - Red,DW-LOU-0121,,12.0,1.0,"₦24,300",POS,,manual_entry.xlsx,497,Unprocessed,SKU_MATCHED,PRD-0121,DW-LOU-0121
+SALE-00498,TX-00553,28-Mar-2026,Slim Fit Tee - White,DW-CAS-0113,White,12.0,1.0,12900,Cash,STF-01,daily_sales.csv,498,Unprocessed,SKU_MATCHED,PRD-0113,DW-CAS-0113
+SALE-00499,TX-00340,27/03/2026,Lace Trim Bra,DW-LIN-0047,Blue,12.0,3.0,89700,Card,STF-02,manual_entry.xlsx,499,Unprocessed,SKU_MATCHED,PRD-0047,DW-LIN-0047
+SALE-00500,,04/01/2026,Men's Athletic Set,DW-ACT-0128,,12.0,1.0,"₦16,900",Cash,,manual_entry.xlsx,500,Unprocessed,SKU_MATCHED,PRD-0128,DW-ACT-0128
+SALE-00501,TX-00555,2026-02-03,same as last time,,,,,5800,Transfer,STF-01,manual_entry.xlsx,501,Unprocessed,SKU_MISSING,,
+SALE-00502,TX-00591,19-Feb-2026,same as last time,,Pink,,2.0,8400(x2),Card,,daily_sales.csv,502,Unprocessed,SKU_MISSING,,
+SALE-00503,TX-00560,01/24/26,men's athletic set,DW-ACT-0220,,12.0,1.0,26300,Cash,,sales_book_export.xlsx,503,Unprocessed,SKU_MATCHED,PRD-0220,DW-ACT-0220
+SALE-00504,TX-00213,2026-01-07,shirt dress,DW-DRE-0296,Pink,12.0,1.0,26800,Card,STAFF A,sales_book_export.xlsx,504,Unprocessed,SKU_MATCHED,PRD-0296,DW-DRE-0296
+SALE-00505,TX-00579,2026-02-06,Seamless Brief,,,12.0,1.0,33600,Card,STF-01,daily_sales.csv,505,Unprocessed,SKU_MISSING,,
+SALE-00506,TX-00436,2026-05-24,strapless bra,,Grey,12.0,2.0,"₦40,200",Cash,,sales_book_export.xlsx,506,Unprocessed,SKU_MISSING,,
+SALE-00507,TX-00561,02/11/26,Quick-Dry Yoga Top Pink 12,DW-ACT-0007,,12.0,1.0,"₦5,700",Card,,sales_book_export.xlsx,507,Unprocessed,SKU_MATCHED,PRD-0007,DW-ACT-0007
+SALE-00508,TX-00381,31/01/2026,oversized lounge top,DW-LOU-0152,White,12.0,1.0,7300,POS,,daily_sales.csv,508,Unprocessed,SKU_MATCHED,PRD-0152,DW-LOU-0152
+SALE-00509,TX-00205,26-Mar-2026,Strapless Bra,DW-LIN-0108,,,3.0,60300,Cash,STAFF A,daily_sales.csv,509,Unprocessed,SKU_MATCHED,PRD-0108,DW-LIN-0108
+SALE-00510,TX-00437,25-Jan-2026,Camisole Dress Beige 12,DW-DRE-0170,Beige,,1.0,"₦23,600",POS,STF-03,manual_entry.xlsx,510,Unprocessed,SKU_MATCHED,PRD-0170,DW-DRE-0170
+SALE-00511,TX-00607,03/07/26,Ladies Baggy Jeans,DW-TRO-0207,Green,,1.0,11800,POS,STAFF A,manual_entry.xlsx,511,Unprocessed,SKU_MATCHED,PRD-0207,DW-TRO-0207
+SALE-00512,TX-00451,23/02/2026,Sports Bra,DW-ACT-0243,,12.0,1.0,3400,Card,,daily_sales.csv,512,Unprocessed,SKU_MATCHED,PRD-0243,DW-ACT-0243
+SALE-00513,TX-00220,2026-05-09,Ribbed Lounge Set - Pink,DW-LOU-0155,Pink,12.0,2.0,"₦12,200",Transfer,STF-03,manual_entry.xlsx,513,Unprocessed,SKU_MATCHED,PRD-0155,DW-LOU-0155
+SALE-00514,TX-00355,04/22/26,floral midi dress,,White,12.0,1.0,"₦27,300",Card,STF-02,manual_entry.xlsx,514,Unprocessed,SKU_MISSING,,
+SALE-00515,TX-00014,18-Feb-2026,Lace Butterfly Pajama Set,DW-NIG-0287,Grey,12.0,1.0,"₦10,800",POS,STF-01,manual_entry.xlsx,515,Unprocessed,SKU_MATCHED,PRD-0287,DW-NIG-0287
+SALE-00516,TX-00485,06/14/26,sleep robe set,DW-NIG-0141,Lilac,12.0,1.0,26600,Cash,STF-01,daily_sales.csv,516,Unprocessed,SKU_MATCHED,PRD-0141,DW-NIG-0141
+SALE-00517,TX-00558,2026-06-06,Ribbed Tank Top White 12,,White,12.0,2.0,57800,POS,STF-02,manual_entry.xlsx,517,Unprocessed,SKU_MISSING,,
+SALE-00518,TX-00514,2026-03-27,quick-dry yoga top,,Grey,,2.0,45400,Transfer,STF-03,sales_book_export.xlsx,518,Unprocessed,SKU_MISSING,,
+SALE-00519,TX-00089,04/24/26,Women's Activewear Set,,Pink,,1.0,19500(x1),Card,STF-01,sales_book_export.xlsx,519,Unprocessed,SKU_MISSING,,
+SALE-00520,TX-00196,16/02/2026,Lace Trim Bra,,,12.0,2.0,"₦59,800",Transfer,STF-03,sales_book_export.xlsx,520,Unprocessed,SKU_MISSING,,
+SALE-00521,TX-00502,03/15/26,sports bra,DW-ACT-0195,,12.0,1.0,18800,POS,STAFF A,daily_sales.csv,521,Unprocessed,SKU_MATCHED,PRD-0195,DW-ACT-0195
+SALE-00522,TX-00516,14-Jun-2026,Relaxed Lounge Pants,,Red,,1.0,28900,POS,STF-01,manual_entry.xlsx,522,Unprocessed,SKU_MISSING,,
+SALE-00523,TX-00035,03/08/26,Strapless Bra,DW-LIN-0108,Grey,12.0,1.0,"₦20,100",POS,STF-01,manual_entry.xlsx,523,Unprocessed,SKU_MATCHED,PRD-0108,DW-LIN-0108
+SALE-00524,TX-00468,2026-01-03,lace brief,,Green,,1.0,"₦22,100",Card,,daily_sales.csv,524,Unprocessed,SKU_MISSING,,
+SALE-00525,TX-00168,03/06/26,lace butterfly pajama set,,Green,,2.0,49000,Transfer,STF-03,manual_entry.xlsx,525,Unprocessed,SKU_MISSING,,
+SALE-00526,TX-00170,20-Feb-2026,Lace Butterfly Pajama Set Pink 12,DW-NIG-0269,Pink,,3.0,54000,Card,STF-01,manual_entry.xlsx,526,Unprocessed,SKU_MATCHED,PRD-0269,DW-NIG-0269
+SALE-00527,,21-Feb-2026,Wide-Leg Trousers,DW-TRO-0076,,12.0,2.0,67000,Transfer,STF-03,sales_book_export.xlsx,527,Unprocessed,SKU_MATCHED,PRD-0076,DW-TRO-0076
+SALE-00528,TX-00290,05/21/26,sleep robe set,,,,2.0,32800(x2),Card,STAFF A,daily_sales.csv,528,Unprocessed,SKU_MISSING,,
+SALE-00529,TX-00142,2026-01-19,Women Slim Fit Solid 3-Piece Suit,DW-SET-0274,,12.0,1.0,21400,Card,STF-02,sales_book_export.xlsx,529,Unprocessed,SKU_MATCHED,PRD-0274,DW-SET-0274
+SALE-00530,TX-00408,03/19/26,Shirt Dress Blue 12,DW-DRE-0109,Blue,12.0,1.0,"₦22,300",Cash,,sales_book_export.xlsx,530,Unprocessed,SKU_MATCHED,PRD-0109,DW-DRE-0109
+SALE-00531,TX-00265,2026-06-25,alo top,DW-CAS-0206,Pink,12.0,2.0,18000,Cash,STAFF A,daily_sales.csv,531,Unprocessed,SKU_MATCHED,PRD-0206,DW-CAS-0206
+SALE-00532,TX-00466,06-Apr-2026,High-Waist Leggings,,Blue,12.0,2.0,42400,Card,STF-01,daily_sales.csv,532,Unprocessed,SKU_MISSING,,
+SALE-00533,TX-00184,2026-01-11,soft knit co-ord,DW-LOU-0145,Red,12.0,1.0,"₦16,100",POS,STF-03,daily_sales.csv,533,Unprocessed,SKU_MATCHED,PRD-0145,DW-LOU-0145
+SALE-00534,TX-00282,04/25/26,Quick-Dry Yoga Top,DW-ACT-0009,,,1.0,22700,POS,,manual_entry.xlsx,534,Unprocessed,SKU_MATCHED,PRD-0009,DW-ACT-0009
+SALE-00535,TX-00310,2026-05-15,lace butterfly pajama set,DW-NIG-0125,Green,,1.0,24500,Card,,sales_book_export.xlsx,535,Unprocessed,SKU_MATCHED,PRD-0125,DW-NIG-0125
+SALE-00536,TX-00051,07/03/2026,Matching Top and Skirt Set,,,12.0,2.0,55400,POS,STAFF A,daily_sales.csv,536,Unprocessed,SKU_MISSING,,
+SALE-00537,TX-00282,04/22/26,Soft Knit Co-ord,DW-SET-0107,,,1.0,32700,POS,,manual_entry.xlsx,537,Unprocessed,SKU_MATCHED,PRD-0107,DW-SET-0107
+SALE-00538,TX-00488,25-Jan-2026,quick-dry yoga top,DW-ACT-0163,Black,,1.0,"₦18,800",Cash,STF-03,daily_sales.csv,538,Unprocessed,SKU_MATCHED,PRD-0163,DW-ACT-0163
+SALE-00539,TX-00575,2026-03-30,Camisole Dress - Lilac,DW-DRE-0164,Lilac,12.0,2.0,"₦18,400",POS,STF-01,sales_book_export.xlsx,539,Unprocessed,SKU_MATCHED,PRD-0164,DW-DRE-0164
+SALE-00540,TX-00503,05-Apr-2026,alo top,,Blue,,1.0,17400,Transfer,,manual_entry.xlsx,540,Unprocessed,SKU_MISSING,,
+SALE-00541,TX-00614,07/04/2026,Shirt Dress,,Lilac,12.0,1.0,33900,POS,STF-03,daily_sales.csv,541,Unprocessed,SKU_MISSING,,
+SALE-00542,TX-00461,06/20/26,same as last time,DW-UNKNOWN-9999,Pink,,2.0,69600,Transfer,STF-02,daily_sales.csv,542,Unprocessed,SKU_NOT_FOUND,,
+SALE-00543,TX-00142,2026-01-01,Quick-Dry Yoga Top - White,,White,12.0,1.0,"₦16,900",Cash,STAFF A,manual_entry.xlsx,543,Unprocessed,SKU_MISSING,,
+SALE-00544,TX-00246,06/01/2026,Lace Butterfly Pajama Set - Lilac,,,12.0,1.0,"₦13,700",Transfer,,manual_entry.xlsx,544,Unprocessed,SKU_MISSING,,
+SALE-00545,TX-00114,03/24/26,Alo Top,DW-CAS-0103,White,12.0,1.0,"₦18,600",POS,STF-02,sales_book_export.xlsx,545,Unprocessed,SKU_MATCHED,PRD-0103,DW-CAS-0103
+SALE-00546,TX-00547,2026-01-18,Satin Nightgown - Grey,,,,1.0,28000,Cash,,daily_sales.csv,546,Unprocessed,SKU_MISSING,,
+SALE-00547,TX-00594,16-Mar-2026,Floral Midi Dress,,,,2.0,22200,Cash,STF-02,daily_sales.csv,547,Unprocessed,SKU_MISSING,,
+SALE-00548,TX-00267,06/18/26,same as last time,,,,1.0,30200,POS,STF-03,manual_entry.xlsx,548,Unprocessed,SKU_MISSING,,
+SALE-00549,TX-00163,26-Mar-2026,Ladies Baggy Jeans,,Navy,12.0,2.0,63200(x2),POS,,manual_entry.xlsx,549,Unprocessed,SKU_MISSING,,
+SALE-00550,TX-00521,2026-06-22,Heart Print T-Shirt,DW-CAS-0226,,,1.0,13400,Card,,manual_entry.xlsx,550,Unprocessed,SKU_MATCHED,PRD-0226,DW-CAS-0226
+SALE-00551,TX-00067,2026-03-30,Wireless Bra,,,,1.0,31300,POS,STF-02,daily_sales.csv,551,Unprocessed,SKU_MISSING,,
+SALE-00552,TX-00373,27/02/2026,Shorts Set,,,,1.0,8600,Cash,,manual_entry.xlsx,552,Unprocessed,SKU_MISSING,,
+SALE-00553,TX-00251,26/03/2026,Lace Butterfly Pajama Set,,White,12.0,1.0,21400,Transfer,,sales_book_export.xlsx,553,Unprocessed,SKU_MISSING,,
+SALE-00554,TX-00596,05/06/2026,Ribbed Tank Top Navy 12,,,,1.0,14100,Card,,sales_book_export.xlsx,554,Unprocessed,SKU_MISSING,,
+SALE-00555,TX-00115,01/14/26,Quick dry Yoga Top,,,,1.0,21900,Card,STF-02,manual_entry.xlsx,555,Unprocessed,SKU_MISSING,,
+SALE-00556,TX-00575,01/01/2026,slim fit tee,DW-CAS-0234,Blue,12.0,1.0,"₦21,500",POS,,sales_book_export.xlsx,556,Unprocessed,SKU_MATCHED,PRD-0234,DW-CAS-0234
+SALE-00557,TX-00552,05/05/26,pink one,,Pink,,1.0,23700(x2),Transfer,STF-02,sales_book_export.xlsx,557,Unprocessed,SKU_MISSING,,
+SALE-00558,TX-00162,02/24/26,Oversized Lounge Top - Green,DW-LOU-0119,Green,12.0,1.0,23900,Transfer,STF-03,manual_entry.xlsx,558,Unprocessed,SKU_MATCHED,PRD-0119,DW-LOU-0119
+SALE-00559,TX-00323,17-Jun-2026,sports bra,DW-ACT-0243,Blue,,1.0,"₦3,400",Card,STF-03,daily_sales.csv,559,Unprocessed,SKU_MATCHED,PRD-0243,DW-ACT-0243
+SALE-00560,TX-00208,2026-04-11,Cotton Nightdress - Blue,DW-NIG-0289,Blue,12.0,2.0,42400,Transfer,STF-03,daily_sales.csv,560,Unprocessed,SKU_MATCHED,PRD-0289,DW-NIG-0289
+SALE-00561,TX-00608,07-Jan-2026,satin nightgown,,,,1.0,30600,Card,STF-01,manual_entry.xlsx,561,Unprocessed,SKU_MISSING,,
+SALE-00562,TX-00138,26-Jun-2026,Relaxed Lounge Pants,,,,3.0,58500,Cash,STF-03,manual_entry.xlsx,562,Unprocessed,SKU_MISSING,,
+SALE-00563,TX-00070,2026-02-08,Strapless Bra,,Lilac,12.0,2.0,60400,POS,STF-03,daily_sales.csv,563,Unprocessed,SKU_MISSING,,
+SALE-00564,TX-00421,17/02/2026,floral midi dress,DW-DRE-0110,Navy,12.0,1.0,"₦18,900",Card,,daily_sales.csv,564,Unprocessed,SKU_MATCHED,PRD-0110,DW-DRE-0110
+SALE-00565,TX-00342,05/16/26,the usual top,,Black,,1.0,29600(x2),Cash,STF-01,manual_entry.xlsx,565,Unprocessed,SKU_MISSING,,
+SALE-00566,TX-00477,05/23/26,Men's Athletic Set,,Grey,12.0,2.0,38000,Card,STF-02,manual_entry.xlsx,566,Unprocessed,SKU_MISSING,,
+SALE-00567,,19-Jan-2026,Camisole Dress - Beige,DW-DRE-0170,Beige,,1.0,"₦23,600",Card,STF-01,sales_book_export.xlsx,567,Unprocessed,SKU_MATCHED,PRD-0170,DW-DRE-0170
+SALE-00568,TX-00591,24-Mar-2026,Ribbed Lounge Set Black 12,,,12.0,1.0,18500,Transfer,STF-02,sales_book_export.xlsx,568,Unprocessed,SKU_MISSING,,
+SALE-00569,TX-00168,20/03/2026,Shorts Set,,Black,,1.0,"₦8,600",Card,STF-03,sales_book_export.xlsx,569,Unprocessed,SKU_MISSING,,
+SALE-00570,TX-00409,2026-04-01,ladies set,,Pink,,,20000,Transfer,STF-02,daily_sales.csv,570,Unprocessed,SKU_MISSING,,
+SALE-00571,TX-00093,24/01/2026,Floral Midi Dress,DW-DRE-0064,Black,,3.0,"₦34,200",POS,,daily_sales.csv,571,Unprocessed,SKU_MATCHED,PRD-0064,DW-DRE-0064
+SALE-00572,TX-00308,2026-01-29,Bodycon Dress - Blue,,Blue,,3.0,"₦108,300",Transfer,STF-01,manual_entry.xlsx,572,Unprocessed,SKU_MISSING,,
+SALE-00573,TX-00482,01/05/2026,sleepwear,DW-UNKNOWN-9999,Pink,,,19500,Cash,STF-01,manual_entry.xlsx,573,Unprocessed,SKU_NOT_FOUND,,
+SALE-00574,,19/06/2026,Strapless Bra,,Grey,,1.0,20100,Transfer,STF-03,daily_sales.csv,574,Unprocessed,SKU_MISSING,,
+SALE-00575,TX-00538,03/09/26,Satin Nightgown,DW-NIG-0192,,12.0,1.0,30600,Transfer,STF-02,sales_book_export.xlsx,575,Unprocessed,SKU_MATCHED,PRD-0192,DW-NIG-0192
+SALE-00576,TX-00481,2026-03-31,Quick-Dry Yoga Top,DW-ACT-0008,Pink,,2.0,"₦9,800",POS,STF-02,daily_sales.csv,576,Unprocessed,SKU_MATCHED,PRD-0008,DW-ACT-0008
+SALE-00577,TX-00414,2026-04-04,Women Slim Fit Solid 3-Piece Suit,,,,3.0,24300,POS,STAFF A,sales_book_export.xlsx,577,Unprocessed,SKU_MISSING,,
+SALE-00578,TX-00149,02/27/26,men's athletic set,,,,1.0,16900,Cash,,manual_entry.xlsx,578,Unprocessed,SKU_MISSING,,
+SALE-00579,TX-00592,20-Feb-2026,Alo Top,,Black,12.0,3.0,88800,Card,,sales_book_export.xlsx,579,Unprocessed,SKU_MISSING,,
+SALE-00580,TX-00468,06/09/26,cotton nightdress,,Blue,12.0,1.0,18100,Cash,STF-03,manual_entry.xlsx,580,Unprocessed,SKU_MISSING,,
+SALE-00581,TX-00356,17-Jan-2026,Men's Athletic Set,,Black,12.0,2.0,"₦47,600",POS,,daily_sales.csv,581,Unprocessed,SKU_MISSING,,
+SALE-00582,TX-00156,22-Jan-2026,black bra,,Black,,3.0,13200,Cash,STAFF A,daily_sales.csv,582,Unprocessed,SKU_MISSING,,
+SALE-00583,TX-00435,28/02/2026,black bra,,,,,16200(x2),Transfer,STF-03,sales_book_export.xlsx,583,Unprocessed,SKU_MISSING,,
+SALE-00584,TX-00609,17-Mar-2026,Slim Fit Tee - Navy,DW-DRE-0129,Navy,12.0,1.0,"₦2,900",Cash,STF-01,daily_sales.csv,584,Unprocessed,SKU_MATCHED,PRD-0129,DW-DRE-0129
+SALE-00585,TX-00283,06/02/2026,Jogger Pants Beige 12,DW-TRO-0072,Beige,12.0,1.0,26700,Transfer,,sales_book_export.xlsx,585,Unprocessed,SKU_MATCHED,PRD-0072,DW-TRO-0072
+SALE-00586,TX-00449,06/22/26,cropped casual top,,Blue,12.0,1.0,"₦16,200",POS,STF-01,manual_entry.xlsx,586,Unprocessed,SKU_MISSING,,
+SALE-00587,TX-00173,02/09/26,sleepwear,,Pink,,1.0,18100(x2),Card,STF-03,sales_book_export.xlsx,587,Unprocessed,SKU_MISSING,,
+SALE-00588,TX-00283,27-Jan-2026,Quick-Dry Yoga Top,,Red,,1.0,15200,POS,STAFF A,daily_sales.csv,588,Unprocessed,SKU_MISSING,,
+SALE-00589,TX-00107,06/20/26,that pink set,,,,2.0,70000,Card,STAFF A,manual_entry.xlsx,589,Unprocessed,SKU_MISSING,,
+SALE-00590,TX-00245,2026-04-07,sleepwear,,,,1.0,24700,POS,STAFF A,manual_entry.xlsx,590,Unprocessed,SKU_MISSING,,
+SALE-00591,TX-00027,04/11/26,Quick-Dry Yoga Top - Beige,,Beige,12.0,2.0,"₦66,400",Transfer,STAFF A,sales_book_export.xlsx,591,Unprocessed,SKU_MISSING,,
+SALE-00592,TX-00255,11-Jun-2026,Cotton Nightdress - Green,,,,3.0,"₦32,400",POS,,sales_book_export.xlsx,592,Unprocessed,SKU_MISSING,,
+SALE-00593,TX-00342,04/28/26,Straight-Leg Jeans,,,,2.0,14200,POS,STAFF A,manual_entry.xlsx,593,Unprocessed,SKU_MISSING,,
+SALE-00594,TX-00449,03/23/26,Seamless Brief,,Beige,12.0,2.0,49400,POS,STF-02,sales_book_export.xlsx,594,Unprocessed,SKU_MISSING,,
+SALE-00595,TX-00150,01/05/26,Slim Fit Tee,,,,1.0,25000,POS,STAFF A,daily_sales.csv,595,Unprocessed,SKU_MISSING,,
+SALE-00596,TX-00281,04/02/2026,high-waist leggings,,,12.0,3.0,36900,Cash,,sales_book_export.xlsx,596,Unprocessed,SKU_MISSING,,
+SALE-00597,TX-00532,04/03/2026,Slim Fit Tee White 12,DW-CAS-0113,White,,2.0,"₦25,800",Card,STAFF A,daily_sales.csv,597,Unprocessed,SKU_MATCHED,PRD-0113,DW-CAS-0113
+SALE-00598,TX-00253,04-Apr-2026,lace brief,DW-LIN-0134,,12.0,2.0,"₦27,400",Transfer,STF-01,manual_entry.xlsx,598,Unprocessed,SKU_MATCHED,PRD-0134,DW-LIN-0134
+SALE-00599,TX-00449,2026-05-18,Sleep Robe Set,,Green,,1.0,27100,Card,STAFF A,daily_sales.csv,599,Unprocessed,SKU_MISSING,,
+SALE-00600,TX-00029,13-Feb-2026,Lingerie Set,,White,12.0,1.0,20400,Card,,manual_entry.xlsx,600,Unprocessed,SKU_MISSING,,
+SALE-00601,TX-00055,12-Apr-2026,cropped casual top,DW-CAS-0069,Green,,1.0,"₦28,100",POS,STAFF A,sales_book_export.xlsx,601,Unprocessed,SKU_MATCHED,PRD-0069,DW-CAS-0069
+SALE-00602,TX-00340,06/07/26,Lingerie Set Green 12,,Green,12.0,1.0,7400,Cash,STF-01,daily_sales.csv,602,Unprocessed,SKU_MISSING,,
+SALE-00603,TX-00512,06/29/26,Shorts Set - Grey,DW-SET-0294,Grey,,3.0,54000,Cash,STF-02,daily_sales.csv,603,Unprocessed,SKU_MATCHED,PRD-0294,DW-SET-0294
+SALE-00604,TX-00061,2026-02-21,sleepwear,,Pink,,1.0,2900(x2),POS,STF-01,sales_book_export.xlsx,604,Unprocessed,SKU_MISSING,,
+SALE-00605,TX-00224,05/16/26,lace trim bra,DW-LIN-0001,,12.0,1.0,4100,POS,STF-01,manual_entry.xlsx,605,Unprocessed,SKU_MATCHED,PRD-0001,DW-LIN-0001
+SALE-00606,TX-00124,2026-06-03,Men's Athletic Set - Lilac,,,12.0,1.0,23600,POS,STF-03,sales_book_export.xlsx,606,Unprocessed,SKU_MISSING,,
+SALE-00607,TX-00120,06/24/26,Relaxed Lounge Pants,DW-LOU-0179,Red,,1.0,"₦28,900",Cash,STF-03,sales_book_export.xlsx,607,Unprocessed,SKU_MATCHED,PRD-0179,DW-LOU-0179
+SALE-00608,TX-00577,06-Feb-2026,Jogger Pants,,White,12.0,1.0,8300,Card,STAFF A,manual_entry.xlsx,608,Unprocessed,SKU_MISSING,,
+SALE-00609,TX-00496,2026-03-14,Alo Top White 12,DW-CAS-0103,White,12.0,1.0,"₦18,600",Card,STF-03,daily_sales.csv,609,Unprocessed,SKU_MATCHED,PRD-0103,DW-CAS-0103
+SALE-00610,,2026-06-25,Quick-Dry Yoga Top,DW-ACT-0148,White,,2.0,33800,POS,,sales_book_export.xlsx,610,Unprocessed,SKU_MATCHED,PRD-0148,DW-ACT-0148
+SALE-00611,TX-00075,18/05/2026,satin nightgown,,,12.0,1.0,37900,Transfer,,sales_book_export.xlsx,611,Unprocessed,SKU_MISSING,,
+SALE-00612,TX-00400,13-Jun-2026,Straight-Leg Jeans - Navy,DW-TRO-0293,Navy,,1.0,15400,Transfer,STF-03,daily_sales.csv,612,Unprocessed,SKU_MATCHED,PRD-0293,DW-TRO-0293
+SALE-00613,TX-00011,09-Feb-2026,soft knit co-ord,,Pink,12.0,1.0,"₦28,700",Card,,daily_sales.csv,613,Unprocessed,SKU_MISSING,,
+SALE-00614,TX-00119,2026-02-18,Cropped Casual Top,,Beige,12.0,2.0,"₦57,400",Transfer,,sales_book_export.xlsx,614,Unprocessed,SKU_MISSING,,
+SALE-00615,TX-00123,18-May-2026,the usual top,DW-UNKNOWN-9999,Black,,1.0,23700,Card,STF-02,sales_book_export.xlsx,615,Unprocessed,SKU_NOT_FOUND,,
+SALE-00616,TX-00380,2026-05-08,Relaxed Lounge Pants,DW-LOU-0285,Navy,12.0,1.0,"₦7,800",Card,STF-02,daily_sales.csv,616,Unprocessed,SKU_MATCHED,PRD-0285,DW-LOU-0285
+SALE-00617,TX-00058,19/06/2026,Men's Athletic Set,,,12.0,,24000,Card,,sales_book_export.xlsx,617,Unprocessed,SKU_MISSING,,
+SALE-00618,TX-00147,10-May-2026,Floral Midi Dress Green 12,DW-DRE-0150,,12.0,1.0,"₦16,100",POS,STF-01,sales_book_export.xlsx,618,Unprocessed,SKU_MATCHED,PRD-0150,DW-DRE-0150
+SALE-00619,TX-00397,2026-04-15,Lingerie Set White 12,,White,12.0,1.0,20400,Cash,STF-02,manual_entry.xlsx,619,Unprocessed,SKU_MISSING,,
+SALE-00620,TX-00354,05/25/26,Jogger Pants - Beige,,Beige,12.0,1.0,"₦17,200",Card,,sales_book_export.xlsx,620,Unprocessed,SKU_MISSING,,
+SALE-00621,TX-00308,2026-05-18,cotton nightdress,,Blue,,2.0,"₦36,200",Transfer,STF-01,daily_sales.csv,621,Unprocessed,SKU_MISSING,,
+SALE-00622,TX-00398,05/19/26,black bra,DW-UNKNOWN-9999,Pink,,2.0,12600,Card,STF-03,daily_sales.csv,622,Unprocessed,SKU_NOT_FOUND,,
+SALE-00623,TX-00315,06/20/26,Straight-Leg Jeans,,,,1.0,7100,Transfer,,sales_book_export.xlsx,623,Unprocessed,SKU_MISSING,,
+SALE-00624,TX-00454,01/28/26,Shirt Dress - Red,DW-DRE-0241,Red,12.0,1.0,17900,Cash,STF-02,daily_sales.csv,624,Unprocessed,SKU_MATCHED,PRD-0241,DW-DRE-0241
+SALE-00625,TX-00134,20-Jun-2026,sleepwear,DW-UNKNOWN-9999,,,1.0,23200,Card,STF-03,manual_entry.xlsx,625,Unprocessed,SKU_NOT_FOUND,,
+SALE-00626,TX-00315,10/06/2026,Alo Top,DW-CAS-0272,Blue,,,34800,Cash,STF-03,manual_entry.xlsx,626,Unprocessed,SKU_MATCHED,PRD-0272,DW-CAS-0272
+SALE-00627,TX-00420,05/30/26,heart print t-shirt,,Pink,12.0,3.0,22500,Transfer,STAFF A,manual_entry.xlsx,627,Unprocessed,SKU_MISSING,,
+SALE-00628,TX-00021,06/29/26,Shirt Dress,,,12.0,4.0,71600,POS,,manual_entry.xlsx,628,Unprocessed,SKU_MISSING,,
+SALE-00629,TX-00404,16/02/2026,Straight-Leg Jeans - Navy,,Navy,,1.0,15400,Transfer,STF-01,manual_entry.xlsx,629,Unprocessed,SKU_MISSING,,
+SALE-00630,TX-00025,12-Jun-2026,Sleep Robe Set,,,,1.0,32000,Card,STF-03,sales_book_export.xlsx,630,Unprocessed,SKU_MISSING,,
+SALE-00631,TX-00011,2026-06-16,Heart Print T-Shirt - Green,,Green,12.0,1.0,"₦23,000",Cash,STF-03,daily_sales.csv,631,Unprocessed,SKU_MISSING,,
+SALE-00632,TX-00566,01-May-2026,alo top,,White,,1.0,"₦18,600",Transfer,,daily_sales.csv,632,Unprocessed,SKU_MISSING,,
+SALE-00633,TX-00182,2026-01-22,that pink set,DW-ACT-0066,Pink,,3.0,69300,POS,STF-01,sales_book_export.xlsx,633,Unprocessed,SKU_MATCHED,PRD-0066,DW-ACT-0066
+SALE-00634,TX-00339,03/02/26,that pink set,DW-UNKNOWN-9999,,,2.0,30800,Cash,STAFF A,sales_book_export.xlsx,634,Unprocessed,SKU_NOT_FOUND,,
+SALE-00635,TX-00198,05-Feb-2026,Lace Butterfly Pajama Set,,,12.0,1.0,4900,Card,STF-02,manual_entry.xlsx,635,Unprocessed,SKU_MISSING,,
+SALE-00636,TX-00078,04/06/2026,Lace Brief,DW-LIN-0254,Grey,12.0,2.0,10000,Transfer,STF-02,daily_sales.csv,636,Unprocessed,SKU_MATCHED,PRD-0254,DW-LIN-0254
+SALE-00637,TX-00166,11-Feb-2026,seamless brief,,,12.0,1.0,24700,Cash,STF-01,sales_book_export.xlsx,637,Unprocessed,SKU_MISSING,,
+SALE-00638,TX-00371,30-Mar-2026,Women's Activewear Set - Blue,DW-ACT-0253,,12.0,3.0,33300,Cash,STAFF A,daily_sales.csv,638,Unprocessed,SKU_MATCHED,PRD-0253,DW-ACT-0253
+SALE-00639,TX-00333,04/26/26,camisole dress,,,12.0,1.0,9200,Card,,daily_sales.csv,639,Unprocessed,SKU_MISSING,,
+SALE-00640,TX-00189,09/02/2026,satin nightgown,,,,1.0,7700,Transfer,STF-01,sales_book_export.xlsx,640,Unprocessed,SKU_MISSING,,
+SALE-00641,TX-00164,05/01/26,Matching Top and Skirt Set,DW-SET-0201,Beige,,1.0,"₦4,200",Card,STF-01,daily_sales.csv,641,Unprocessed,SKU_MATCHED,PRD-0201,DW-SET-0201
+SALE-00642,TX-00440,18-Jan-2026,Lace Trim Bra,,White,,3.0,104400,Cash,STAFF A,sales_book_export.xlsx,642,Unprocessed,SKU_MISSING,,
+SALE-00643,TX-00321,14-Mar-2026,Alo Top Blue 12,DW-CAS-0272,,12.0,1.0,"₦17,400",Card,STF-03,manual_entry.xlsx,643,Unprocessed,SKU_MATCHED,PRD-0272,DW-CAS-0272
+SALE-00644,TX-00321,05/28/26,Quick dry Yoga Top,,,,2.0,15800,Cash,,sales_book_export.xlsx,644,Unprocessed,SKU_MISSING,,
+SALE-00645,TX-00229,2026-01-21,women slim fit solid 3-piece suit,DW-SET-0165,Green,12.0,1.0,"₦8,400",Cash,STF-03,daily_sales.csv,645,Unprocessed,SKU_MATCHED,PRD-0165,DW-SET-0165
+SALE-00646,TX-00063,2026-05-24,alo top,DW-CAS-0248,Beige,,1.0,10700,Transfer,STAFF A,manual_entry.xlsx,646,Unprocessed,SKU_MATCHED,PRD-0248,DW-CAS-0248
+SALE-00647,TX-00152,2026-03-05,Soft Knit Co-ord,DW-LOU-0145,Red,12.0,2.0,32200,Card,,manual_entry.xlsx,647,Unprocessed,SKU_MATCHED,PRD-0145,DW-LOU-0145
+SALE-00648,TX-00335,2026-06-02,quick-dry yoga top,DW-ACT-0081,Grey,12.0,1.0,"₦25,600",Card,STF-03,sales_book_export.xlsx,648,Unprocessed,SKU_MATCHED,PRD-0081,DW-ACT-0081
+SALE-00649,TX-00136,2026-04-07,Heart Print T-Shirt,,Pink,,1.0,7500,Card,STF-01,sales_book_export.xlsx,649,Unprocessed,SKU_MISSING,,
+SALE-00650,TX-00064,02/08/26,Jogger Pants Beige 12,DW-TRO-0072,Beige,12.0,1.0,26700,Card,,manual_entry.xlsx,650,Unprocessed,SKU_MATCHED,PRD-0072,DW-TRO-0072
+SALE-00651,TX-00044,21/05/2026,men's athletic set,DW-ACT-0080,,,2.0,47200(x2),Transfer,STF-02,sales_book_export.xlsx,651,Unprocessed,SKU_MATCHED,PRD-0080,DW-ACT-0080
+SALE-00652,TX-00597,2026-05-09,Matching Top and Skirt Set - Grey,DW-SET-0071,,12.0,1.0,"₦27,700",Card,STF-01,daily_sales.csv,652,Unprocessed,SKU_MATCHED,PRD-0071,DW-SET-0071
+SALE-00653,TX-00207,05/29/26,Sports Bra Green 12,DW-ACT-0042,Green,12.0,2.0,"₦14,800",POS,STF-03,sales_book_export.xlsx,653,Unprocessed,SKU_MATCHED,PRD-0042,DW-ACT-0042
+SALE-00654,TX-00211,2026-03-08,lace butterfly pajama set,DW-NIG-0168,,,1.0,32300,Transfer,STAFF A,manual_entry.xlsx,654,Unprocessed,SKU_MATCHED,PRD-0168,DW-NIG-0168
+SALE-00655,TX-00025,26-Jun-2026,same as last time,,Pink,,1.0,16800,POS,STF-01,sales_book_export.xlsx,655,Unprocessed,SKU_MISSING,,
+SALE-00656,TX-00293,03/27/26,ladies set,DW-UNKNOWN-9999,Pink,,1.0,6000,Transfer,STF-01,manual_entry.xlsx,656,Unprocessed,SKU_NOT_FOUND,,
+SALE-00657,TX-00382,01/01/2026,Lace Trim Bra,,,12.0,2.0,69600,Cash,STF-03,daily_sales.csv,657,Unprocessed,SKU_MISSING,,
+SALE-00658,TX-00032,2026-03-18,the usual top,,Pink,,2.0,23400,Card,STF-02,sales_book_export.xlsx,658,Unprocessed,SKU_MISSING,,
+SALE-00659,,01/23/26,wide-leg trousers,DW-TRO-0058,Beige,12.0,2.0,20600,Card,,daily_sales.csv,659,Unprocessed,SKU_MATCHED,PRD-0058,DW-TRO-0058
+SALE-00660,,14-Feb-2026,Strapless Bra,,,,3.0,"₦90,600",POS,STF-02,sales_book_export.xlsx,660,Unprocessed,SKU_MISSING,,
+SALE-00661,TX-00484,01-Jan-2026,Floral Midi Dress - Blue,,Blue,,4.0,55600,Transfer,STF-03,manual_entry.xlsx,661,Unprocessed,SKU_MISSING,,
+SALE-00662,TX-00418,05/22/26,sports bra,DW-ACT-0191,White,12.0,1.0,"₦5,100",POS,,sales_book_export.xlsx,662,Unprocessed,SKU_MATCHED,PRD-0191,DW-ACT-0191
+SALE-00663,TX-00554,05/02/2026,Wireless Bra - Grey,DW-LIN-0130,Grey,12.0,1.0,4800,Transfer,STAFF A,sales_book_export.xlsx,663,Unprocessed,SKU_MATCHED,PRD-0130,DW-LIN-0130
+SALE-00664,TX-00334,27-Jun-2026,Shorts Set,,,,1.0,8600,POS,STAFF A,daily_sales.csv,664,Unprocessed,SKU_MISSING,,
+SALE-00665,TX-00517,18/06/2026,quick-dry yoga top,,Red,,2.0,30400,Cash,,sales_book_export.xlsx,665,Unprocessed,SKU_MISSING,,
+SALE-00666,TX-00074,27/06/2026,Lingerie Set - Green,DW-TRO-0016,Green,12.0,3.0,22200,Cash,STF-03,daily_sales.csv,666,Unprocessed,SKU_MATCHED,PRD-0016,DW-TRO-0016
+SALE-00667,TX-00512,04/19/26,Sports Bra,,Red,,3.0,59100,POS,STF-03,sales_book_export.xlsx,667,Unprocessed,SKU_MISSING,,
+SALE-00668,TX-00089,06/29/26,Quick-Dry Yoga Top,,,,1.0,25200,Card,STF-03,manual_entry.xlsx,668,Unprocessed,SKU_MISSING,,
+SALE-00669,TX-00421,01/22/26,Men's Athletic Set,,,,1.0,19000,Cash,STF-01,manual_entry.xlsx,669,Unprocessed,SKU_MISSING,,
+SALE-00670,TX-00463,06/01/26,Men's Athletic Set,,,,2.0,45000,POS,STF-02,sales_book_export.xlsx,670,Unprocessed,SKU_MISSING,,
+SALE-00671,TX-00229,2026-06-03,Seamless Brief Blue 12,DW-CAS-0091,Blue,12.0,1.0,16900,POS,STAFF A,daily_sales.csv,671,Unprocessed,SKU_MATCHED,PRD-0091,DW-CAS-0091
+SALE-00672,TX-00441,04/24/26,that pink set,,,,2.0,15200,Cash,STAFF A,manual_entry.xlsx,672,Unprocessed,SKU_MISSING,,
+SALE-00673,TX-00520,12-Jun-2026,Relaxed Lounge Pants,DW-LOU-0189,Lilac,12.0,1.0,11400,Transfer,STF-02,sales_book_export.xlsx,673,Unprocessed,SKU_MATCHED,PRD-0189,DW-LOU-0189
+SALE-00674,TX-00119,11/02/2026,Cotton Nightdress Green 12,DW-NIG-0013,,12.0,1.0,"₦10,800",Cash,STF-02,sales_book_export.xlsx,674,Unprocessed,SKU_MATCHED,PRD-0013,DW-NIG-0013
+SALE-00675,TX-00492,18-Mar-2026,Wide-Leg Trousers,,,12.0,1.0,33500,Transfer,STF-02,manual_entry.xlsx,675,Unprocessed,SKU_MISSING,,
+SALE-00676,TX-00070,03/05/2026,Sleep Robe Set - Green,,Green,,1.0,27100,Card,STAFF A,sales_book_export.xlsx,676,Unprocessed,SKU_MISSING,,
+SALE-00677,TX-00231,12-Feb-2026,Strapless Bra,,Lilac,12.0,,24700,Transfer,,manual_entry.xlsx,677,Unprocessed,SKU_MISSING,,
+SALE-00678,TX-00041,15/04/2026,Bodycon Dress,,,,,36100,POS,STF-03,daily_sales.csv,678,Unprocessed,SKU_MISSING,,
+SALE-00679,TX-00604,04/29/26,the usual top,,Black,,1.0,27200,Transfer,,daily_sales.csv,679,Unprocessed,SKU_MISSING,,
+SALE-00680,TX-00580,27-Jun-2026,Lace Trim Bra,DW-LIN-0047,Blue,12.0,1.0,"₦29,900",Transfer,STF-03,daily_sales.csv,680,Unprocessed,SKU_MATCHED,PRD-0047,DW-LIN-0047
+SALE-00681,TX-00371,27/03/2026,lace brief,,Navy,12.0,1.0,20900,POS,STF-02,daily_sales.csv,681,Unprocessed,SKU_MISSING,,
+SALE-00682,TX-00471,14-May-2026,men's athletic set,,Pink,,1.0,25100,POS,STF-02,daily_sales.csv,682,Unprocessed,SKU_MISSING,,
+SALE-00683,TX-00431,06-Mar-2026,Lingerie Set - Green,DW-LIN-0037,Green,,1.0,"₦7,400",Transfer,STF-03,sales_book_export.xlsx,683,Unprocessed,SKU_MATCHED,PRD-0037,DW-LIN-0037
+SALE-00684,TX-00275,2026-06-10,shirt dress,,Grey,12.0,4.0,129600,Transfer,STF-01,manual_entry.xlsx,684,Unprocessed,SKU_MISSING,,
+SALE-00685,TX-00363,22-Feb-2026,Sleep Robe Set,DW-NIG-0217,Blue,,1.0,20900,Transfer,STF-02,sales_book_export.xlsx,685,Unprocessed,SKU_MATCHED,PRD-0217,DW-NIG-0217
+SALE-00686,TX-00128,30-May-2026,Women's Activewear Set - White,DW-ACT-0284,White,,1.0,4400,Cash,STF-02,daily_sales.csv,686,Unprocessed,SKU_MATCHED,PRD-0284,DW-ACT-0284
+SALE-00687,TX-00238,03/03/26,Two-Piece Casual Set Pink 12,,Pink,12.0,1.0,"₦5,300",Cash,STF-01,daily_sales.csv,687,Unprocessed,SKU_MISSING,,
+SALE-00688,TX-00537,04/24/26,same as last time,DW-UNKNOWN-9999,Pink,,,31600,POS,STF-03,sales_book_export.xlsx,688,Unprocessed,SKU_NOT_FOUND,,
+SALE-00689,TX-00281,10-May-2026,Slim Fit Tee,,Navy,12.0,1.0,26800,Transfer,STF-03,sales_book_export.xlsx,689,Unprocessed,SKU_MISSING,,
+SALE-00690,TX-00021,03-Jun-2026,sleepwear,DW-UNKNOWN-9999,,,2.0,37600(x2),Card,,manual_entry.xlsx,690,Unprocessed,SKU_NOT_FOUND,,
+SALE-00691,TX-00391,19/04/2026,Strapless Bra Lilac 12,DW-LIN-0229,,12.0,1.0,13900,POS,STF-01,sales_book_export.xlsx,691,Unprocessed,SKU_MATCHED,PRD-0229,DW-LIN-0229
+SALE-00692,TX-00171,10/02/2026,Lace Trim Bra,,,12.0,1.0,29900,Cash,STF-02,sales_book_export.xlsx,692,Unprocessed,SKU_MISSING,,
+SALE-00693,TX-00184,2026-05-27,Heart Print T-Shirt,DW-CAS-0027,,,1.0,23000,Cash,,manual_entry.xlsx,693,Unprocessed,SKU_MATCHED,PRD-0027,DW-CAS-0027
+SALE-00694,TX-00172,2026-02-15,black bra,,Pink,,1.0,11400,Cash,,sales_book_export.xlsx,694,Unprocessed,SKU_MISSING,,
+SALE-00695,TX-00140,2026-03-03,Shirt Dress,,,,2.0,67800,Cash,STF-03,daily_sales.csv,695,Unprocessed,SKU_MISSING,,
+SALE-00696,TX-00537,05/06/26,Cotton Nightdress - Pink,,Pink,12.0,1.0,"₦20,500",Card,STF-02,manual_entry.xlsx,696,Unprocessed,SKU_MISSING,,
+SALE-00697,TX-00017,02-Feb-2026,slim fit tee,,Navy,,2.0,"₦53,600",Transfer,,manual_entry.xlsx,697,Unprocessed,SKU_MISSING,,
+SALE-00698,TX-00210,04/26/26,Wide-Leg Trousers,DW-TRO-0076,,,2.0,67000,Card,STF-02,daily_sales.csv,698,Unprocessed,SKU_MATCHED,PRD-0076,DW-TRO-0076
+SALE-00699,TX-00302,03/04/26,that pink set,,Pink,,,69000,POS,STAFF A,manual_entry.xlsx,699,Unprocessed,SKU_MISSING,,
+SALE-00700,TX-00576,2026-01-11,ladies set,,Pink,,3.0,12600,POS,STF-01,sales_book_export.xlsx,700,Unprocessed,SKU_MISSING,,
+SALE-00701,TX-00500,2026-02-25,Bodycon Dress - Blue,DW-DRE-0261,,12.0,1.0,"₦36,100",Card,STAFF A,sales_book_export.xlsx,701,Unprocessed,SKU_MATCHED,PRD-0261,DW-DRE-0261
+SALE-00702,TX-00202,25/05/2026,black bra,,Pink,,1.0,5300,Cash,STAFF A,daily_sales.csv,702,Unprocessed,SKU_MISSING,,
+SALE-00703,TX-00262,04/11/26,Ribbed Tank Top,,Lilac,12.0,1.0,"₦34,000",Transfer,STF-01,sales_book_export.xlsx,703,Unprocessed,SKU_MISSING,,
+SALE-00704,TX-00382,10-Jan-2026,Relaxed Lounge Pants,DW-LOU-0084,,12.0,1.0,"₦17,700",Card,STF-03,manual_entry.xlsx,704,Unprocessed,SKU_MATCHED,PRD-0084,DW-LOU-0084
+SALE-00705,TX-00023,21/05/2026,straight-leg jeans,,Pink,12.0,2.0,47200,Card,,daily_sales.csv,705,Unprocessed,SKU_MISSING,,
+SALE-00706,TX-00225,11/05/2026,ladies set,,Black,,1.0,11800,Transfer,,sales_book_export.xlsx,706,Unprocessed,SKU_MISSING,,
+SALE-00707,TX-00059,2026-06-28,Lace Butterfly Pajama Set - White,DW-NIG-0051,White,12.0,1.0,21400,Card,,daily_sales.csv,707,Unprocessed,SKU_MATCHED,PRD-0051,DW-NIG-0051
+SALE-00708,TX-00241,17/04/2026,women's activewear set,DW-ACT-0079,Green,,1.0,"₦24,500",POS,STF-02,manual_entry.xlsx,708,Unprocessed,SKU_MATCHED,PRD-0079,DW-ACT-0079
+SALE-00709,TX-00156,2026-03-28,Relaxed Lounge Pants - Lilac,,Lilac,12.0,1.0,34400,Cash,STF-01,daily_sales.csv,709,Unprocessed,SKU_MISSING,,
+SALE-00710,TX-00339,09/01/2026,the usual top,DW-UNKNOWN-9999,Black,,1.0,11000,Cash,STF-01,manual_entry.xlsx,710,Unprocessed,SKU_NOT_FOUND,,
+SALE-00711,TX-00474,11-Jan-2026,Seamless Brief,,,,1.0,33600,POS,STF-02,manual_entry.xlsx,711,Unprocessed,SKU_MISSING,,
+SALE-00712,TX-00411,25-Jan-2026,alo top,DW-CAS-0264,,12.0,1.0,"₦21,100",Card,STF-02,daily_sales.csv,712,Unprocessed,SKU_MATCHED,PRD-0264,DW-CAS-0264
+SALE-00713,TX-00290,23/02/2026,Lace Butterfly Pajama Set Blue 12,DW-NIG-0168,Blue,,1.0,32300,POS,STF-03,manual_entry.xlsx,713,Unprocessed,SKU_MATCHED,PRD-0168,DW-NIG-0168
+SALE-00714,TX-00033,04-May-2026,lace brief,,Red,12.0,1.0,28100,POS,,sales_book_export.xlsx,714,Unprocessed,SKU_MISSING,,
+SALE-00715,,29/04/2026,cropped casual top,DW-CAS-0255,,,1.0,"₦24,100",Transfer,STF-03,daily_sales.csv,715,Unprocessed,SKU_MATCHED,PRD-0255,DW-CAS-0255
+SALE-00716,,05/05/26,Men's Athletic Set,,Grey,12.0,2.0,"₦38,000",Cash,STF-03,manual_entry.xlsx,716,Unprocessed,SKU_MISSING,,
+SALE-00717,TX-00542,07-Jun-2026,Lingerie Set - Lilac,,,12.0,1.0,12100,Transfer,,manual_entry.xlsx,717,Unprocessed,SKU_MISSING,,
+SALE-00718,TX-00586,04/27/26,ribbed tank top,,,12.0,3.0,42300,Transfer,STF-03,manual_entry.xlsx,718,Unprocessed,SKU_MISSING,,
+SALE-00719,,26/04/2026,same as last time,,,,1.0,23300,Card,STF-02,daily_sales.csv,719,Unprocessed,SKU_MISSING,,
+SALE-00720,TX-00053,21-Apr-2026,lace trim bra,DW-LIN-0002,,,1.0,32400,Card,STAFF A,sales_book_export.xlsx,720,Unprocessed,SKU_MATCHED,PRD-0002,DW-LIN-0002
+SALE-00721,TX-00022,19/06/2026,Women Slim Fit Solid 3-Piece Suit,,,,1.0,21400,Cash,STF-02,manual_entry.xlsx,721,Unprocessed,SKU_MISSING,,
+SALE-00722,TX-00160,2026-02-13,floral midi dress,DW-DRE-0133,,,1.0,20500,Cash,STF-01,sales_book_export.xlsx,722,Unprocessed,SKU_MATCHED,PRD-0133,DW-DRE-0133
+SALE-00723,TX-00365,11-Mar-2026,Lingerie Set - White,DW-LIN-0034,White,,3.0,"₦61,200",Cash,STF-03,sales_book_export.xlsx,723,Unprocessed,SKU_MATCHED,PRD-0034,DW-LIN-0034
+SALE-00724,TX-00548,18-Feb-2026,Straight-Leg Jeans,,White,,1.0,33700,Transfer,,manual_entry.xlsx,724,Unprocessed,SKU_MISSING,,
+SALE-00725,TX-00069,01/08/26,Ribbed Tank Top - Pink,DW-CAS-0180,Pink,,1.0,21800,Transfer,,manual_entry.xlsx,725,Unprocessed,SKU_MATCHED,PRD-0180,DW-CAS-0180
+SALE-00726,TX-00008,10-Apr-2026,Soft Knit Co-ord,DW-LOU-0235,Navy,12.0,1.0,30200,POS,,sales_book_export.xlsx,726,Unprocessed,SKU_MATCHED,PRD-0235,DW-LOU-0235
+SALE-00727,TX-00550,25-Jan-2026,Cropped Casual Top,,Green,12.0,1.0,"₦28,100",Card,STF-03,sales_book_export.xlsx,727,Unprocessed,SKU_MISSING,,
+SALE-00728,TX-00308,01/15/26,Lace Trim Bra,,,,3.0,104400,Card,STF-01,sales_book_export.xlsx,728,Unprocessed,SKU_MISSING,,
+SALE-00729,TX-00127,25-Mar-2026,Camisole Dress Blue 12,,Blue,,1.0,"₦17,000",Transfer,STAFF A,sales_book_export.xlsx,729,Unprocessed,SKU_MISSING,,
+SALE-00730,TX-00042,2026-01-21,Cropped Casual Top,,Beige,12.0,1.0,"₦25,700",POS,,sales_book_export.xlsx,730,Unprocessed,SKU_MISSING,,
+SALE-00731,TX-00271,03/10/26,Wide-Leg Trousers,,White,12.0,2.0,"₦10,600",Transfer,STAFF A,manual_entry.xlsx,731,Unprocessed,SKU_MISSING,,
+SALE-00732,TX-00006,21/01/2026,Slim Fit Tee,,Blue,12.0,1.0,22800,POS,STAFF A,manual_entry.xlsx,732,Unprocessed,SKU_MISSING,,
+SALE-00733,TX-00295,05/07/26,Ladies Baggy Jeans Lilac 12,,Lilac,,1.0,"₦8,800",POS,STF-02,manual_entry.xlsx,733,Unprocessed,SKU_MISSING,,
+SALE-00734,TX-00042,18/04/2026,Floral Midi Dress,,,12.0,1.0,11400,Transfer,STF-02,manual_entry.xlsx,734,Unprocessed,SKU_MISSING,,
+SALE-00735,TX-00350,2026-01-19,Lace Trim Bra Beige 12,DW-LIN-0024,Beige,12.0,2.0,36000,Transfer,,sales_book_export.xlsx,735,Unprocessed,SKU_MATCHED,PRD-0024,DW-LIN-0024
+SALE-00736,TX-00362,15/06/2026,the usual top,,Pink,,2.0,67000,Transfer,STF-02,daily_sales.csv,736,Unprocessed,SKU_MISSING,,
+SALE-00737,TX-00295,12/03/2026,Bodycon Dress - White,DW-DRE-0251,White,,1.0,13300,Transfer,STF-03,daily_sales.csv,737,Unprocessed,SKU_MATCHED,PRD-0251,DW-DRE-0251
+SALE-00738,TX-00277,04/20/26,Heart Print T-Shirt,,Lilac,12.0,2.0,"₦22,000",Transfer,,sales_book_export.xlsx,738,Unprocessed,SKU_MISSING,,
+SALE-00739,TX-00279,04-Feb-2026,Lingerie Set - Navy,DW-LIN-0225,,12.0,1.0,13300,POS,,sales_book_export.xlsx,739,Unprocessed,SKU_MATCHED,PRD-0225,DW-LIN-0225
+SALE-00740,TX-00021,2026-05-26,soft knit co-ord,DW-LOU-0033,White,,3.0,84300,POS,STAFF A,daily_sales.csv,740,Unprocessed,SKU_MATCHED,PRD-0033,DW-LOU-0033
+SALE-00741,TX-00484,29-Mar-2026,Lingerie Set,,,12.0,1.0,"₦23,200",Transfer,STF-02,daily_sales.csv,741,Unprocessed,SKU_MISSING,,
+SALE-00742,TX-00548,28/03/2026,Lace Trim Bra,,Beige,,,18000(x1),Cash,STF-01,manual_entry.xlsx,742,Unprocessed,SKU_MISSING,,
+SALE-00743,TX-00096,04/23/26,Lace Brief Black 12,DW-LIN-0281,Black,12.0,2.0,"₦10,600",POS,STF-02,manual_entry.xlsx,743,Unprocessed,SKU_MATCHED,PRD-0281,DW-LIN-0281
+SALE-00744,TX-00502,2026-01-24,Sports Bra,,,12.0,2.0,39400,Transfer,,daily_sales.csv,744,Unprocessed,SKU_MISSING,,
+SALE-00745,TX-00586,2026-01-23,floral midi dress,DW-DRE-0052,Red,,1.0,"₦31,700",Cash,STF-03,sales_book_export.xlsx,745,Unprocessed,SKU_MATCHED,PRD-0052,DW-DRE-0052
+SALE-00746,,10/02/2026,Women's Activewear Set Pink 12,DW-ACT-0089,Pink,12.0,1.0,"₦19,500",Transfer,STF-03,manual_entry.xlsx,746,Unprocessed,SKU_MATCHED,PRD-0089,DW-ACT-0089
+SALE-00747,TX-00426,25/06/2026,Slim Fit Tee,,Navy,,1.0,17100,Cash,,sales_book_export.xlsx,747,Unprocessed,SKU_MISSING,,
+SALE-00748,TX-00436,10/03/2026,Ladies Baggy Jeans,,,,2.0,30800,Transfer,STAFF A,daily_sales.csv,748,Unprocessed,SKU_MISSING,,
+SALE-00749,TX-00130,2026-03-22,Cropped Casual Top,DW-CAS-0143,Beige,,1.0,"₦28,700",Cash,STF-02,manual_entry.xlsx,749,Unprocessed,SKU_MATCHED,PRD-0143,DW-CAS-0143
+SALE-00750,TX-00566,2026-01-29,Women Slim Fit Solid 3-Piece Suit Lilac 12,DW-SET-0274,Lilac,,1.0,21400,Cash,STF-03,manual_entry.xlsx,750,Unprocessed,SKU_MATCHED,PRD-0274,DW-SET-0274
+SALE-00751,TX-00453,2026-01-24,Ribbed Lounge Set Pink 12,,Pink,12.0,1.0,26200,Cash,,manual_entry.xlsx,751,Unprocessed,SKU_MISSING,,
+SALE-00752,TX-00032,2026-01-21,Sleep Robe Set Pink 12,,,12.0,2.0,59600,Cash,STF-03,sales_book_export.xlsx,752,Unprocessed,SKU_MISSING,,
+SALE-00753,TX-00362,2026-01-21,Cropped Casual Top,DW-CAS-0300,,12.0,1.0,16200,POS,,manual_entry.xlsx,753,Unprocessed,SKU_MATCHED,PRD-0300,DW-CAS-0300
+SALE-00754,TX-00296,2026-05-10,ribbed lounge set,DW-LOU-0059,,12.0,1.0,10700,Cash,STF-03,daily_sales.csv,754,Unprocessed,SKU_MATCHED,PRD-0059,DW-LOU-0059
+SALE-00755,TX-00529,2026-01-11,Shirt Dress,,Red,12.0,1.0,17900,POS,STAFF A,sales_book_export.xlsx,755,Unprocessed,SKU_MISSING,,
+SALE-00756,TX-00385,07/04/2026,Seamless Brief Lilac 12,,Lilac,,1.0,"₦4,200",Cash,STAFF A,manual_entry.xlsx,756,Unprocessed,SKU_MISSING,,
+SALE-00757,TX-00063,10/06/2026,Ribbed Tank Top Navy 12,DW-CAS-0021,,12.0,1.0,"₦14,100",POS,STF-01,sales_book_export.xlsx,757,Unprocessed,SKU_MATCHED,PRD-0021,DW-CAS-0021
+SALE-00758,TX-00388,06/03/2026,Matching Top and Skirt Set,DW-SET-0201,,,2.0,8400,Transfer,STAFF A,manual_entry.xlsx,758,Unprocessed,SKU_MATCHED,PRD-0201,DW-SET-0201
+SALE-00759,TX-00163,13-Apr-2026,Soft Knit Co-ord,DW-LOU-0033,White,12.0,1.0,28100,Cash,STF-02,daily_sales.csv,759,Unprocessed,SKU_MATCHED,PRD-0033,DW-LOU-0033
+SALE-00760,TX-00383,04/05/26,lace trim bra,,Green,,2.0,65000,POS,STF-01,sales_book_export.xlsx,760,Unprocessed,SKU_MISSING,,
+SALE-00761,TX-00287,28-Feb-2026,Ladies Baggy Jeans Green 12,DW-TRO-0207,,,2.0,23600,POS,STAFF A,manual_entry.xlsx,761,Unprocessed,SKU_MATCHED,PRD-0207,DW-TRO-0207
+SALE-00762,TX-00064,10/05/2026,Alo Top Blue 12,,Blue,12.0,3.0,52200,POS,STF-01,daily_sales.csv,762,Unprocessed,SKU_MISSING,,
+SALE-00763,TX-00145,03/16/26,black bra,,,,1.0,32400,Cash,STF-01,sales_book_export.xlsx,763,Unprocessed,SKU_MISSING,,
+SALE-00764,TX-00138,15/05/2026,that pink set,DW-UNKNOWN-9999,,,1.0,18100,Card,STF-03,sales_book_export.xlsx,764,Unprocessed,SKU_NOT_FOUND,,
+SALE-00765,TX-00538,04/15/26,Ribbed Tank Top,,,,2.0,28200,Cash,STF-01,sales_book_export.xlsx,765,Unprocessed,SKU_MISSING,,
+SALE-00766,TX-00510,01/07/26,Shorts Set,DW-SET-0107,Red,12.0,4.0,91200,POS,STF-03,manual_entry.xlsx,766,Unprocessed,SKU_MATCHED,PRD-0107,DW-SET-0107
+SALE-00767,TX-00127,17-Apr-2026,sleepwear,,Pink,,3.0,30000,POS,STF-01,manual_entry.xlsx,767,Unprocessed,SKU_MISSING,,
+SALE-00768,TX-00617,27/02/2026,floral midi dress,,Green,,1.0,"₦16,100",Transfer,STF-01,sales_book_export.xlsx,768,Unprocessed,SKU_MISSING,,
+SALE-00769,TX-00022,2026-03-12,Satin Nightgown,DW-NIG-0232,Beige,,1.0,"₦7,700",POS,STF-02,daily_sales.csv,769,Unprocessed,SKU_MATCHED,PRD-0232,DW-NIG-0232
+SALE-00770,TX-00209,2026-04-20,Ribbed Tank Top,,Red,,1.0,6800,POS,,daily_sales.csv,770,Unprocessed,SKU_MISSING,,
+SALE-00771,TX-00112,07/01/2026,Heart Print T-Shirt,,,12.0,1.0,30900,Card,,daily_sales.csv,771,Unprocessed,SKU_MISSING,,
+SALE-00772,TX-00244,14/06/2026,Wide-Leg Trousers,,Red,,3.0,54900,Card,STAFF A,manual_entry.xlsx,772,Unprocessed,SKU_MISSING,,
+SALE-00773,TX-00579,2026-02-04,cotton nightdress,,Pink,12.0,1.0,"₦20,500",Cash,STF-03,daily_sales.csv,773,Unprocessed,SKU_MISSING,,
+SALE-00774,TX-00304,02/16/26,shorts set,,,12.0,3.0,54000,Card,STF-01,manual_entry.xlsx,774,Unprocessed,SKU_MISSING,,
+SALE-00775,TX-00200,07-Feb-2026,Oversized Lounge Top - White,,White,12.0,1.0,7300,Transfer,STF-02,sales_book_export.xlsx,775,Unprocessed,SKU_MISSING,,
+SALE-00776,TX-00121,02/27/26,Matching Top and Skirt Set - Red,DW-SET-0095,Red,,1.0,"₦27,700",Card,,sales_book_export.xlsx,776,Unprocessed,SKU_MATCHED,PRD-0095,DW-SET-0095
+SALE-00777,TX-00575,14/02/2026,Cropped Casual Top Lilac 12,DW-CAS-0227,Lilac,12.0,2.0,"₦57,000",Cash,STF-03,sales_book_export.xlsx,777,Unprocessed,SKU_MATCHED,PRD-0227,DW-CAS-0227
+SALE-00778,TX-00368,15/04/2026,Strapless Bra Red 12,,Red,12.0,2.0,58200,Transfer,,manual_entry.xlsx,778,Unprocessed,SKU_MISSING,,
+SALE-00779,TX-00150,2026-01-24,Shorts Set - Pink,DW-SET-0247,Pink,,2.0,46200,Transfer,STAFF A,daily_sales.csv,779,Unprocessed,SKU_MATCHED,PRD-0247,DW-SET-0247
+SALE-00780,TX-00169,2026-03-28,straight-leg jeans,,,,4.0,61600,Card,STF-02,sales_book_export.xlsx,780,Unprocessed,SKU_MISSING,,
+SALE-00781,TX-00198,20/06/2026,Lace Butterfly Bra - Black,,Black,,2.0,44000,POS,STF-01,sales_book_export.xlsx,781,Unprocessed,SKU_MISSING,,
+SALE-00782,TX-00454,07/04/2026,lingerie set,DW-LIN-0034,,12.0,1.0,20400(x1),Card,STF-02,sales_book_export.xlsx,782,Unprocessed,SKU_MATCHED,PRD-0034,DW-LIN-0034
+SALE-00783,TX-00422,26/02/2026,Relaxed Lounge Pants - Lilac,DW-LOU-0189,Lilac,12.0,1.0,11400,Transfer,STAFF A,sales_book_export.xlsx,783,Unprocessed,SKU_MATCHED,PRD-0189,DW-LOU-0189
+SALE-00784,TX-00270,2026-01-05,Strapless Bra - Red,,,,1.0,29100,Cash,,manual_entry.xlsx,784,Unprocessed,SKU_MISSING,,
+SALE-00785,TX-00411,09/03/2026,Women Slim Fit Solid 3-Piece Suit Lilac 12,DW-SET-0274,Lilac,12.0,1.0,"₦21,400",Cash,,manual_entry.xlsx,785,Unprocessed,SKU_MATCHED,PRD-0274,DW-SET-0274
+SALE-00786,TX-00508,29-Apr-2026,Lingerie Set,,Beige,12.0,1.0,20100,POS,,sales_book_export.xlsx,786,Unprocessed,SKU_MISSING,,
+SALE-00787,,25-Feb-2026,pink one,,Pink,,1.0,29600(x2),Card,STF-03,manual_entry.xlsx,787,Unprocessed,SKU_MISSING,,
+SALE-00788,TX-00512,25/01/2026,Soft Knit Co-ord,DW-LOU-0023,Pink,12.0,1.0,28700,Transfer,STF-02,sales_book_export.xlsx,788,Unprocessed,SKU_MATCHED,PRD-0023,DW-LOU-0023
+SALE-00789,TX-00560,02/11/26,same as last time,DW-UNKNOWN-9999,Black,,1.0,4900(x2),POS,,manual_entry.xlsx,789,Unprocessed,SKU_NOT_FOUND,,
+SALE-00790,TX-00347,01-Mar-2026,black bra,DW-UNKNOWN-9999,,,2.0,26600,Transfer,STAFF A,daily_sales.csv,790,Unprocessed,SKU_NOT_FOUND,,
+SALE-00791,TX-00531,07/05/2026,Cotton Nightdress,,,,2.0,23400,Transfer,STF-01,daily_sales.csv,791,Unprocessed,SKU_MISSING,,
+SALE-00792,,07-Apr-2026,Lace Trim Bra Black 12,DW-LIN-0002,Black,12.0,1.0,32400,POS,STAFF A,daily_sales.csv,792,Unprocessed,SKU_MATCHED,PRD-0002,DW-LIN-0002
+SALE-00793,TX-00041,06/25/26,Satin Nightgown,DW-NIG-0054,,12.0,1.0,31400,POS,STF-02,daily_sales.csv,793,Unprocessed,SKU_MATCHED,PRD-0054,DW-NIG-0054
+SALE-00794,TX-00556,15/03/2026,black bra,,,,2.0,10600,Card,STAFF A,manual_entry.xlsx,794,Unprocessed,SKU_MISSING,,
+SALE-00795,TX-00037,05/10/26,camisole dress,,Beige,,3.0,9300,Card,STF-01,daily_sales.csv,795,Unprocessed,SKU_MISSING,,
+SALE-00796,TX-00080,02-Mar-2026,Ribbed Tank Top - Lilac,DW-CAS-0092,Lilac,,2.0,11600,Cash,,daily_sales.csv,796,Unprocessed,SKU_MATCHED,PRD-0092,DW-CAS-0092
+SALE-00797,TX-00040,05/07/26,Satin Nightgown - Beige,DW-NIG-0273,Beige,12.0,1.0,4900,POS,STAFF A,sales_book_export.xlsx,797,Unprocessed,SKU_MATCHED,PRD-0273,DW-NIG-0273
+SALE-00798,TX-00032,06/14/26,Lingerie Set,,,,1.0,17300,Cash,STF-02,daily_sales.csv,798,Unprocessed,SKU_MISSING,,
+SALE-00799,TX-00302,15-Feb-2026,bodycon dress,DW-DRE-0278,Green,12.0,2.0,"₦10,600",Transfer,STF-02,manual_entry.xlsx,799,Unprocessed,SKU_MATCHED,PRD-0278,DW-DRE-0278
+SALE-00800,TX-00169,2026-06-24,cropped casual top,,,12.0,1.0,28100,POS,STF-01,manual_entry.xlsx,800,Unprocessed,SKU_MISSING,,
