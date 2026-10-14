@@ -1,30 +1,30 @@
-# Dylte Wears: Sales Validation and Inventory Reconciliation Automation
+# Dylte Wears: Sales Validation & Inventory Reconciliation
 
-## Overview
+**A Python-based retail data quality and inventory control prototype.**
 
-Dylte Wears Sales Validation and Inventory Reconciliation Automation is a Python-based portfolio project exploring how retail sales records can be validated, uncertain product matches routed for review, and approved sales movements reconciled against inventory.
+Retail sales records can contain missing SKUs, ambiguous product descriptions, incomplete variants, and invalid quantities. This project explores how to validate those records, route uncertain cases for human review, and prevent unverified sales from silently changing inventory balances.
 
-The project uses a synthetic retail dataset inspired by clothing retail operations. It combines rule-based product matching, data-quality checks, decision queues, movement validation, and inventory reconciliation.
+**The core principle:** Validate first. Review uncertainty. Reconcile only eligible movements.
 
-The central design principle is that **uncertain records should be reviewed rather than silently accepted or used to change inventory**.
+### Project at a glance
 
-## Problem Statement
+| | |
+|---|---|
+| **Dataset** | 800 synthetic sales lines |
+| **Validation outcomes** | 111 accepted · 677 review · 12 hold |
+| **Integrated workflow** | 56 eligible sales movements |
+| **Automated tests** | 27 passing |
+| **Tools** | Python · pandas · pytest |
 
-Retail sales and stock records may contain missing product codes, inconsistent descriptions, incomplete attributes, quantity issues, and movements that cannot safely be linked to validated sales.
+*All results use synthetic data and demonstrate the configured prototype rules, not measured real-world business performance.*
 
-Automatically accepting these records can lead to incorrect product attribution and unreliable inventory balances.
+### What this project demonstrates
 
-This project explores a controlled workflow that separates validated records from records requiring human review or being placed on hold.
-
-## Objectives
-
-- Validate sales records against product and data-quality rules.
-- Match known SKUs and generate candidates for records with missing SKUs.
-- Preserve ambiguous matches for human review.
-- Route incomplete, inconsistent, or invalid records to appropriate queues.
-- Link validated sales to corresponding inventory movements.
-- Apply only eligible movements through the inventory reconciliation rules.
-- Evaluate matching behavior and verify decision logic with automated tests.
+- Rule-based SKU and product-description matching.
+- Data-quality checks and decision queues.
+- Validation of sales-to-inventory movement consistency.
+- Inventory reconciliation with auditable decisions.
+- Automated tests for matching, validation, and integration rules.
 
 ## Technology Stack
 
@@ -43,6 +43,32 @@ This project explores a controlled workflow that separates validated records fro
 5. **Check movement eligibility:** Link sales movements to validation results and verify product, quantity, and approval consistency.
 6. **Reconcile inventory:** Pass eligible sales movements and retained non-sale movements through the inventory reconciliation rules.
 7. **Evaluate and test:** Generate audit outputs and run automated tests covering matching, validation, and integration decisions.
+
+## System Architecture
+
+The workflow separates sales validation from inventory movement eligibility. Uncertain records are routed for review, and only sales movements that satisfy the integration checks are passed to inventory reconciliation.
+
+```mermaid
+flowchart TD
+    A["Synthetic retail dataset"] --> B["Product matching"]
+    B --> C["Sales validation"]
+
+    C --> D["Accepted sales"]
+    C --> E["Review queue"]
+    C --> F["Hold queue"]
+
+    D --> G["Link sales to inventory movements"]
+    G --> H{"Product, quantity,<br/>and approval checks pass?"}
+
+    H -->|Yes| I["Eligible sales movements"]
+    H -->|No| J["Movement review"]
+
+    I --> K["Inventory reconciliation"]
+    K --> L["Inventory balances"]
+    K --> M["Movement audit trail"]
+```
+
+**Control principle:** A sale being accepted by the validation pipeline does not automatically guarantee that its inventory movement is eligible. The integration checks must also pass.
 
 ## Synthetic Dataset
 
@@ -177,6 +203,10 @@ The integration script expects the validation output to exist before it runs.
 - Create a concise workflow diagram and a documented evaluation methodology.
 - Assess the workflow against appropriately anonymized real data if authorized access becomes available.
 
-## Author
+## 👩🏽‍💻 Author
 
-Built as a data analytics and automation portfolio project focused on data quality, cautious automation, auditability, and inventory control.
+**Gloria Austin**  
+*Business Intelligence Analyst | Data Analyst*
+
+**Core Competencies:**  
+`Business Intelligence` | `Data Analytics` | `Power BI` | `DAX` | `SQL` | `PostgreSQL` | `Excel` | `KPI Development` | `Executive Reporting`
